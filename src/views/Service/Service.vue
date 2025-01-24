@@ -97,8 +97,8 @@
                     </div> -->
                 </div></p>
              
-             <p style="line-height:1.2 ;font-size: 0.9rem;">{{ item.author ? item.author  : '' }} </p>
-                 <p style="line-height: 1.2 ;font-size: 0.9rem;color:brown">{{ item.place? item.place.join(', ')  : '' }}</p>
+             <p style="line-height:1.2 ;font-size: 1rem;">{{ item.author ? item.author  : '' }} </p>
+                 <p style="line-height: 1.2 ;font-size: 1rem;color:brown">{{ item.place? item.place.join(', ')  : '' }}</p>
                  <p style="line-height: 1.2 ;font-size: 0.9rem;">
                         <!-- <span v-if="item.Process2.length > 0">{{ item.Process2 ? item.Process2.join(', ') : '' }}; </span>
                         <span v-if="item.place.length > 0">{{ item.place ? item.place.join(', ') : '' }}</span> -->
@@ -574,7 +574,7 @@
             border-radius: 6px; /* 圆角 */
             color: black; /* 字体颜色 */
             padding: 3px 10px; /* 内边距，可根据需要调整 */
-            font-size: 0.7rem;
+            font-size: 0.9rem;
             margin:3px;
             white-space: normal; /* 默认的 white-space 值，允许内容换行 */
             word-wrap: break-word; /* 当内容太长时，允许单词内换行 */
@@ -623,6 +623,7 @@
              padding: 5px 10px;
              color: #969696;
              cursor: pointer;
+             font-size: 0.9rem;
          }
          .selected {
              background-color: #969696;
