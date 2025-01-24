@@ -26,14 +26,14 @@ const routes = [
   //     title: 'About'
   //   }
   // },
-  {
-    path:'/service',
-    name:'servive',
-    component:() =>import('../views/Service/Service.vue'),
-    meta:{
-      title: 'Service&Area'
-    }
-  },
+  // {
+  //   path:'/service',
+  //   name:'servive',
+  //   component:() =>import('../views/Service/Service.vue'),
+  //   meta:{
+  //     title: 'Service&Area'
+  //   }
+  // },
  
   // {
   //   path:'/Report',
@@ -64,7 +64,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  // base: '/Collection/',
+  base: '/emogis/',
   routes
 })
 
