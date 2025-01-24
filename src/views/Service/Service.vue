@@ -233,8 +233,8 @@
                  // 初始化时默认全选
                  this.selectAllFilters();
                  // 一开始默认展示所有数据
-                const jsonFilePath = '/output.json'
-                // const jsonFilePath = `${process.env.BASE_URL}output.json`;
+                // const jsonFilePath = '/output.json'
+                const jsonFilePath = `${process.env.BASE_URL}output.json`;
                 // console.log(jsonFilePath)
                  axios
                    .get(jsonFilePath)
