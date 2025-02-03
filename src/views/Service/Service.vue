@@ -87,7 +87,7 @@
              <p>
                 <div class="text-container">
                     <div class="left-block">
-                        <a :href="item.Link[0]" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;">
+                        <a :href="item.Link[0]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;">
                             <span style="text-align: left;font-size: 1.2rem;font-weight: bolder;color:black">{{ item.name  }}</span>
                             <img v-if="item.Link" :src="require('@/assets/images/link.svg' )"  alt="link" style="padding: 0; margin-left: 5px;margin-bottom:2px;width:1.2rem;vertical-align: middle;">
                         </a>
