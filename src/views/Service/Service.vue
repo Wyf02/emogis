@@ -87,10 +87,25 @@
              <p>
                 <div class="text-container">
                     <div class="left-block">
-                        <a :href="item.Link[0]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;">
-                            <span style="text-align: left;font-size: 1.2rem;font-weight: bolder;color:black">{{ item.name  }}</span>
-                            <img v-if="item.Link" :src="require('@/assets/images/link.svg' )"  alt="link" style="padding: 0; margin-left: 5px;margin-bottom:2px;width:1.2rem;vertical-align: middle;">
+                        <span style="text-align: left;font-size: 1.2rem;font-weight: bolder;color:black">{{ item.name  }}</span>
+                        
+                        <!-- <a :href="item.Link1[0]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <img v-if="item.Link1" :src="require('@/assets/images/link.svg' )"  alt="link" style="padding: 0; margin-left: 5px;margin-bottom:2px;width:1.2rem;vertical-align: middle;">
+                        </a> -->
+
+                        <a v-if="item.Link1" v-for="(item1, index1) in item.Link1" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <i class="fas fa-book" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                         </a>
+                        <a v-if="item.Link2" v-for="(item1, index1) in item.Link2" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <i class="fas fa-book" style="color:brown;padding: 0; margin-left: 5px;font-size: small"></i>
+                        </a>
+                        <a v-if="item.Link3" v-for="(item1, index1) in item.Link3" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <i class="fas fa-desktop" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
+                        </a>
+                        <a v-if="item.Link4" v-for="(item1, index1) in item.Link4" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <i class="fa-regular fa-comment-dots" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
+                        </a>
+                        
                     </div>
                     <!-- <div class="right-block">
                             <span style="float: right;">{{ item.time ? item.time.join(', ') : '' }}</span>
@@ -167,55 +182,23 @@
         banner:require('@/assets/images/first/home.png'),        
         // times:['1996', '2002', '2003', '2004', '2006', '2007', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
         persons:[
-            'individual','gender',
-            'country','country(Germany)',
-            'region', 'cultural','special status',
-            'not specified or anyone'],
-        places: ['[psychological place]total symbolism',
- '[realistic place] place with narratives/story',
- '[realistic place]place with emotional response',
- '[realistic place]place with emotional response and narratives/story',
- '[realistic place]place with narratives/story',
- '[realistic place]semi-symbolistic place'],
+            'concrete', 'abstract/representitive',
+            'group/collective', 'individual',
+            'gender', 'class', 'racial', 'cultural', 'residential', 'special status', 'age', 'traveller', 'intimacy', 'not specified or anyone'],
+        places: ['realistic place', 'memorized place',
+       'imagined/psychological place','city/town', 'country/continent', 'world', 'architecture/area',
+       'island/marine', 'rural/non-urban', 'others or not specified'
+    ],
         Process1s: 
-        ['UGC',
- 'co-create/participatory',
- 'crowdsourcing',
- 'digitalized personal data',
- 'dérive',
- 'fieldwork',
- 'game',
- 'intentionally selected data',
- 'interview',
- 'narrating/recording',
- 'none',
- 'questionnaire',
- 'symbol/metaphor',
- 'workshop'],
-        Process2:['2.5D/3D',
- 'add stickers',
- 'animation/simulation',
- 'collage',
- 'color',
- 'erase',
- 'images/photos',
- 'interface interaction(GUI interaction)',
- 'phrasing/content',
- 'physicalization(flour)',
- 'physicalization(gauze)',
- 'physicalization(paper,cloth)',
- 'sharing',
- 'sound',
- 'stylize(comic/cartoon)',
- 'stylize(hand-drawn style)',
- 'stylize(hand-embroidered style)',
- 'stylize(sketch)',
- 'stylize(sketch/draw)',
- 'symbol/metaphor',
- 'symbol/metaphor(irony/satire)',
- 'typography',
- 'typography(authoritative)',
- 'typography(comic/cartoon)'],
+        ['workshop', 'questionnaire/open call', 'system/app using', 'dérive/walk/wander/tour', 'inherent emotional attitude', 'fieldwork', 'interview', 'event/game', 'sensor/device', 'co-design', 'prepared toolkit', 'video recording/taking pictures', 'personal experience', 'historical material mining', 'draw/sketch'
+
+        ],
+        Process2:['layout', 'body language', 'shape', 'images/photos', 'typography', 'collage', 'annotated content/associated stories', 'stylize(hand-drawn style)', 'wording', 'sound', 'symbol/metaphor', 'avatar', '2.5D/3D', 'color', 'animation/simulation', 'personalized genre/style'
+    , 'physicalization',
+    'flour', 'water/ice', 'gauze', 'paper', 'organic', 'cloth', 'tile',
+    'GUI interaction', 'add stickers',
+    'event', 'static image', 'sculpture', 'artifact', 'video', 'performance', 'installation', 'interactive interface'
+    ],
         
         selectedFilters: {
             time: [],

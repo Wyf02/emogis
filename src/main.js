@@ -2,7 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+// import { faBook, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 router.beforeEach((to, from, next) => {
 
@@ -32,5 +34,5 @@ function isLoggedIn() {
   return localStorage.getItem('userInfo').isLogin||store.state.userInfo.isLogin;
 }
 
-
+// library.add(faBook, faHeart)
 createApp(App).use(store).use(router).mount('#app')

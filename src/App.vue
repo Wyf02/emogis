@@ -1,6 +1,8 @@
 <script setup>
   import HeaderWidget from './components/HeaderWidget.vue'
   // import ContactView from './components/Contect.vue'
+  import '@fortawesome/fontawesome-free/css/all.min.css';
+
 </script>
 
 <template>
