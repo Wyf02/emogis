@@ -96,13 +96,13 @@
                         <a v-if="item.Link1" v-for="(item1, index1) in item.Link1" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                             <i class="fas fa-book" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                         </a>
-                        <a v-if="item.Link2" v-for="(item1, index1) in item.Link2" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                        <a v-if="item.Link2" v-for="(item1, index1) in item.Link2" :key="index" :href="item.Link2[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                             <i class="fas fa-book" style="color:brown;padding: 0; margin-left: 5px;font-size: small"></i>
                         </a>
-                        <a v-if="item.Link3" v-for="(item1, index1) in item.Link3" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                        <a v-if="item.Link3" v-for="(item1, index1) in item.Link3" :key="index" :href="item.Link3[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                             <i class="fas fa-desktop" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                         </a>
-                        <a v-if="item.Link4" v-for="(item1, index1) in item.Link4" :key="index" :href="item.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                        <a v-if="item.Link4" v-for="(item1, index1) in item.Link4" :key="index" :href="item.Link4[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                             <i class="fa-regular fa-comment-dots" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                         </a>
                         
