@@ -184,20 +184,18 @@
         persons:[
             'concrete', 'abstract/representitive',
             'group/collective', 'individual',
-            'gender', 'class', 'racial', 'cultural', 'residential', 'special status', 'age', 'traveller', 'intimacy', 'not specified or anyone'],
-        places: ['realistic place', 'memorized place',
-       'imagined/psychological place','city/town', 'country/continent', 'world', 'architecture/area',
-       'island/marine', 'rural/non-urban', 'others or not specified'
+            'age', 'class', 'traveller', 'gender', 'cultural', 'residential', 'racial', 'special status', 'not specified or anyone'],
+        places: ['realistic place', 'memorized place', 'imagined/psychological place',
+       'rural/non-urban', 'city/town', 'architecture/area', 'world', 'country/continent', 'island/marine', 'others or not specified'
     ],
         Process1s: 
-        ['workshop', 'questionnaire/open call', 'system/app using', 'dérive/walk/wander/tour', 'inherent emotional attitude', 'fieldwork', 'interview', 'event/game', 'sensor/device', 'co-design', 'prepared toolkit', 'video recording/taking pictures', 'personal experience', 'historical material mining', 'draw/sketch'
-
+        ['fieldwork', 'prepared toolkit', 'inherent emotional attitude', 'interview', 'sensor/device', 'emotional facts', 'dérive/walk/wander/tour', 'system/app using', 'social activity', 'personal experience', 'draw/sketch', 'video recording/taking pictures', 'historical material mining'
         ],
-        Process2:['layout', 'body language', 'shape', 'images/photos', 'typography', 'collage', 'annotated content/associated stories', 'stylize(hand-drawn style)', 'wording', 'sound', 'symbol/metaphor', 'avatar', '2.5D/3D', 'color', 'animation/simulation', 'personalized genre/style'
-    , 'physicalization',
-    'flour', 'water/ice', 'gauze', 'paper', 'organic', 'cloth', 'tile',
+        Process2:['shape', 'personalization', 'AR', 'annotated content/associated stories', 'wording', 'sound', 'layout', 'collage', 'animation/simulation', '2.5D/3D', 'typography', 'body language', 'images/photos', 'avatar', 'style', 
+        'color', 'symbol/metaphor','physicalization', 
+    'paper', 'flour', 'gauze', 'water/ice', 'organic', 'tile', 'cloth',
     'GUI interaction', 'add stickers',
-    'event', 'static image', 'sculpture', 'artifact', 'video', 'performance', 'installation', 'interactive interface'
+    'event', 'installation', 'static image', 'artifact', 'video', 'performance', 'interactive interface'
     ],
         
         selectedFilters: {

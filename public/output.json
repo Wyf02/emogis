@@ -14,7 +14,7 @@
         "Process1": [
             "sensor/device",
             "dérive/walk/wander/tour",
-            "workshop"
+            "social activity"
         ],
         "Process2": [
             "color",
@@ -24,7 +24,7 @@
         ],
         "Link1": [
             "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
-            
+            "",
             "https://discovery.ucl.ac.uk/id/eprint/10045820/"
         ],
         "Link2": [],
@@ -49,7 +49,7 @@
         "Process1": [
             "sensor/device",
             "dérive/walk/wander/tour",
-            "workshop"
+            "social activity"
         ],
         "Process2": [
             "color",
@@ -60,7 +60,7 @@
         "Link1": [
             "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
             "http://emotionmap.net/GreenwichEmotionMap.pdf",
-            
+            "",
             "https://discovery.ucl.ac.uk/id/eprint/10045820/"
         ],
         "Link2": [],
@@ -85,7 +85,7 @@
         "Process1": [
             "sensor/device",
             "dérive/walk/wander/tour",
-            "workshop",
+            "social activity",
             "draw/sketch"
         ],
         "Process2": [
@@ -98,7 +98,7 @@
         "Link1": [
             "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
             "http://emotionmap.net/GreenwichEmotionMap.pdf",
-            
+            "",
             "https://discovery.ucl.ac.uk/id/eprint/10045820/"
         ],
         "Link2": [],
@@ -123,7 +123,7 @@
         "Process1": [
             "sensor/device",
             "dérive/walk/wander/tour",
-            "workshop"
+            "social activity"
         ],
         "Process2": [
             "images/photos",
@@ -134,7 +134,7 @@
         "Link1": [
             "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
             "http://emotionmap.net/GreenwichEmotionMap.pdf",
-            
+            "",
             "https://discovery.ucl.ac.uk/id/eprint/10045820/"
         ],
         "Link2": [],
@@ -157,14 +157,14 @@
             "country/continent"
         ],
         "Process1": [
-            "co-design",
-            "interview"
+            "interview",
+            "social activity"
         ],
         "Process2": [
             "images/photos",
             "sound",
             "symbol/metaphor",
-            "personalized genre/style",
+            "personalization",
             "annotated content/associated stories",
             "interactive interface"
         ],
@@ -178,7 +178,7 @@
     },
     {
         "name": "Surrealist map of the world. (From Variétés, Brussels, June 1929.)",
-        "author": "",
+        "author": "Denis Wood suggests Éluard likely made the map.",
         "person": [
             "abstract/representitive"
         ],
@@ -260,7 +260,7 @@
         "Link3": [],
         "Link4": [
             "https://situationnisteblog.wordpress.com/2015/06/07/the-naked-city-illustration-de-lhypothese-des-plaques-tournantes-en-psychogeographique-sic-1957/",
-            
+            "",
             "https://paulwalshphotographyblog.wordpress.com/2013/07/08/the-naked-city/"
         ],
         "images": "The Naked City.png"
@@ -288,11 +288,11 @@
             "color",
             "organic",
             "water/ice",
-            "sculpture"
+            "artifact"
         ],
         "Link1": [
             "https://ica-proc.copernicus.org/articles/1/43/2018/",
-            
+            "",
             "https://cartographicperspectives.org/index.php/journal/article/view/cp88-vf"
         ],
         "Link2": [],
@@ -349,8 +349,9 @@
         "Process2": [
             "color",
             "annotated content/associated stories",
-            "stylize(hand-drawn style)",
             "shape",
+            "style",
+            "physicalization",
             "static image"
         ],
         "Link1": [
@@ -380,7 +381,7 @@
             "annotated content/associated stories",
             "color",
             "shape",
-            "stylize(hand-drawn style)",
+            "style",
             "static image"
         ],
         "Link1": [],
@@ -397,8 +398,7 @@
         "name": "Sachsenhausen Memorial and Museum Visitor Map",
         "author": "L2M3 Kommunikationsdesign GmbH",
         "person": [
-            "abstract/representitive",
-            "special status"
+            "abstract/representitive"
         ],
         "place": [
             "realistic place",
@@ -435,7 +435,9 @@
         ],
         "Process1": [
             "dérive/walk/wander/tour",
-            "prepared toolkit"
+            "prepared toolkit",
+            "interview",
+            "social activity"
         ],
         "Process2": [
             "color",
@@ -445,7 +447,7 @@
         ],
         "Link1": [
             "https://link.springer.com/chapter/10.1007/978-3-658-30956-5_12",
-            
+            "",
             "https://www.proquest.com/openview/4b242ca4a99c6fb5674f574b89c69c27/1?pq-origsite=gscholar&cbl=51922&diss=y"
         ],
         "Link2": [],
@@ -472,7 +474,6 @@
             "color",
             "symbol/metaphor",
             "wording",
-            "typography",
             "static image"
         ],
         "Link1": [],
@@ -578,13 +579,13 @@
         "Process1": [
             "draw/sketch",
             "fieldwork",
-            "workshop",
-            "video recording/taking pictures"
+            "social activity"
         ],
         "Process2": [
-            "stylize(hand-drawn style)",
-            "static image",
-            "event"
+            "symbol/metaphor",
+            "annotated content/associated stories",
+            "event",
+            "interactive interface"
         ],
         "Link1": [
             "https://doi.org/10.1080/00045608.2012.707596"
@@ -614,8 +615,8 @@
         "Process2": [
             "color",
             "annotated content/associated stories",
-            "stylize(hand-drawn style)",
             "shape",
+            "style",
             "static image"
         ],
         "Link1": [
@@ -627,8 +628,8 @@
         "images": "Emotional cartography as a window into children_s well-being_ Visualizing the felt geographies of place.png"
     },
     {
-        "name": "Italian national coronavirus cartographies. Collage of screenshots from Google searches by Tania Rossetto.",
-        "author": "Collage of screenshots from Google searches by Tania Rossetto. ",
+        "name": "Italian national coronavirus cartographies",
+        "author": "Collage of screenshots from Google searches by Tania Rossetto",
         "person": [
             "abstract/representitive"
         ],
@@ -651,7 +652,7 @@
         ],
         "Link3": [],
         "Link4": [],
-        "images": "Italian national coronavirus cartographies_ Collage of screenshots from Google searches by Tania Rossetto_.png"
+        "images": "Italian national coronavirus cartographies.png"
     },
     {
         "name": "Female Doctor Lulling [the map of] Italy",
@@ -670,7 +671,6 @@
             "symbol/metaphor",
             "images/photos",
             "wording",
-            "typography",
             "static image"
         ],
         "Link1": [],
@@ -680,41 +680,6 @@
         "Link3": [],
         "Link4": [],
         "images": "Female Doctor Lulling [the map of] Italy.png"
-    },
-    {
-        "name": "How the 2020 remapped your worlds",
-        "author": "Bloomberg CityLab",
-        "person": [
-            "concrete",
-            "individual",
-            "special status"
-        ],
-        "place": [
-            "realistic place",
-            "architecture/area"
-        ],
-        "Process1": [
-            "questionnaire/open call"
-        ],
-        "Process2": [
-            "color",
-            "symbol/metaphor",
-            "images/photos",
-            "stylize(hand-drawn style)",
-            "annotated content/associated stories",
-            "wording",
-            "typography",
-            "static image"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://doi.org/10.1080/17450101.2020.1866319"
-        ],
-        "Link3": [
-            "https://www.bloomberg.com/features/2020-coronavirus-lockdown-neighborhood-maps/"
-        ],
-        "Link4": [],
-        "images": "How the 2020 remapped your worlds.png"
     },
     {
         "name": "The Image of the City",
@@ -729,14 +694,17 @@
             "city/town"
         ],
         "Process1": [
-            "interview"
+            "interview",
+            "draw/sketch",
+            "social activity"
         ],
         "Process2": [
+            "symbol/metaphor",
             "static image"
         ],
         "Link1": [
             "https://www.miguelangelmartinez.net/IMG/pdf/1960_Kevin_Lynch_The_Image_of_The_City_book.pdf",
-            
+            "",
             "https://d1wqtxts1xzle7.cloudfront.net/46359078/Image_of_the_City-libre.pdf?1465487880=&response-content-disposition=inline%3B+filename%3DImage_of_the_City.pdf&Expires=1732618528&Signature=DtvqmR9qs~1epHtbYn261NfSroCPaXL2d6X1mfUpZJ4OldUPXDSgWvMuF3-ljnybiR44BSiCFwf~jdMaLWr6lBiV~v0d1AtLluAEs0bZOPBm3elwaJsBxERlJzoPuSjmECAb88TXTN5GLMA4QO5bZ7kBydQIu6~MvmEaRieyFnaMeiYDGVzl~GnOeE2cDvg~igk4ARC-YKL6xi8gZqEOU4wfQbTQS3WZa7lRmdRnuAfds2Wa1afWqRHawwZpiVV1Bt1BAIlzRcbuZ9j~NFITDEgIhSAT9oZrdHHcB2iMTPcXyEmL8AAUNSS9fOgDB~a3ctgCSobEGFj7A3RBV2swsA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
         ],
         "Link2": [],
@@ -757,12 +725,12 @@
             "country/continent"
         ],
         "Process1": [
-            "co-design",
-            "draw/sketch"
+            "draw/sketch",
+            "social activity"
         ],
         "Process2": [
             "physicalization",
-            "installation"
+            "artifact"
         ],
         "Link1": [],
         "Link2": [
@@ -812,7 +780,7 @@
     },
     {
         "name": "The silver dog with the golden tail: Will the tail wag the dog, or the dog wag the tail",
-        "author": "Myron A. Root",
+        "author": "probably by Myron A. Root",
         "person": [
             "abstract/representitive"
         ],
@@ -877,10 +845,9 @@
         "Process1": [
             "interview",
             "draw/sketch",
-            "co-design"
+            "social activity"
         ],
         "Process2": [
-            "stylize(hand-drawn style)",
             "symbol/metaphor",
             "wording",
             "images/photos",
@@ -898,20 +865,19 @@
         "name": "The Last Piece Is You",
         "author": "Margaret Wickens Pearce",
         "person": [
-            "abstract/representitive",
-            "cultural"
+            "abstract/representitive"
         ],
         "place": [
             "realistic place",
             "island/marine"
         ],
         "Process1": [
-            "historical material mining"
+            "fieldwork"
         ],
         "Process2": [
             "annotated content/associated stories",
-            "static image",
-            "event"
+            "wording",
+            "static image"
         ],
         "Link1": [
             "https://doi.org/10.1179/1743277414Y.0000000078"
@@ -982,67 +948,6 @@
         "images": "Snap Map.png"
     },
     {
-        "name": "Buried poems",
-        "author": "Nancy Holt",
-        "person": [
-            "concrete",
-            "individual",
-            "intimacy"
-        ],
-        "place": [
-            "realistic place",
-            "others or not specified"
-        ],
-        "Process1": [
-            "dérive/walk/wander/tour",
-            "event/game"
-        ],
-        "Process2": [
-            "event"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://books.google.com.hk/books?hl=zh-CN&lr=&id=iJpT_EuL7gAC&oi=fnd&pg=PA14&dq=The+Map+as+Art.+Harmon,+Katharine&ots=eIIb6CgRUz&sig=zmB6Zm2jrozScWH_d2zOPw8yUSc&redir_esc=y#v=onepage&q=The%20Map%20as%20Art.%20Harmon%2C%20Katharine&f=false"
-        ],
-        "Link3": [],
-        "Link4": [
-            "https://earthworksnearyou.blogspot.com/2010/10/nancy-holts-burial-project.html",
-            "https://earthworksnearyou.blogspot.com/2010/11/more-on-nancy-holts-buried-poems-jan.html"
-        ],
-        "images": "Buried poems.png"
-    },
-    {
-        "name": "The City Formerly Known as Cambridge",
-        "author": "Catherine D’Ignazio, The Institute for Infinitely Small Things",
-        "person": [
-            "concrete",
-            "group/collective",
-            "residential"
-        ],
-        "place": [
-            "imagined/psychological place",
-            "city/town"
-        ],
-        "Process1": [
-            "event/game"
-        ],
-        "Process2": [
-            "collage",
-            "images/photos",
-            "annotated content/associated stories",
-            "static image"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://books.google.com.hk/books?hl=zh-CN&lr=&id=iJpT_EuL7gAC&oi=fnd&pg=PA14&dq=The+Map+as+Art.+Harmon,+Katharine&ots=eIIb6CgRUz&sig=zmB6Zm2jrozScWH_d2zOPw8yUSc&redir_esc=y#v=onepage&q=The%20Map%20as%20Art.%20Harmon%2C%20Katharine&f=false"
-        ],
-        "Link3": [
-            "https://kanarinka.com/project/the-city-formerly-known-as-cambridge/"
-        ],
-        "Link4": [],
-        "images": "The City Formerly Known as Cambridge.png"
-    },
-    {
         "name": "The LGBT community and public space: A mixed methods approach",
         "author": "Emily L. Sanschagrin",
         "person": [
@@ -1083,7 +988,8 @@
             "city/town"
         ],
         "Process1": [
-            "system/app using"
+            "system/app using",
+            "social activity"
         ],
         "Process2": [
             "annotated content/associated stories",
@@ -1109,7 +1015,7 @@
         ],
         "place": [
             "realistic place",
-            "world"
+            "country/continent"
         ],
         "Process1": [
             "system/app using"
@@ -1117,12 +1023,12 @@
         "Process2": [
             "images/photos",
             "annotated content/associated stories",
+            "personalization",
             "GUI interaction",
             "interactive interface"
         ],
         "Link1": [
-            "https://doi.org/10.1109/TVCG.2015.2467831",
-            "https://www.alicethudt.de/projects/visual-mementos"
+            "https://doi.org/10.1109/TVCG.2015.2467831"
         ],
         "Link2": [],
         "Link3": [
@@ -1201,14 +1107,14 @@
             "traveller"
         ],
         "place": [
-            "realistic place",
+            "imagined/psychological place",
             "architecture/area"
         ],
         "Process1": [
             "dérive/walk/wander/tour"
         ],
         "Process2": [
-            "images/photos",
+            "collage",
             "layout",
             "static image"
         ],
@@ -1235,11 +1141,12 @@
             "island/marine"
         ],
         "Process1": [
-            "draw/sketch",
-            "personal experience"
+            "personal experience",
+            "inherent emotional attitude"
         ],
         "Process2": [
-            "stylize(hand-drawn style)",
+            "images/photos",
+            "annotated content/associated stories",
             "static image"
         ],
         "Link1": [],
@@ -1266,15 +1173,18 @@
         ],
         "Process1": [
             "dérive/walk/wander/tour",
-            "prepared toolkit",
-            "event/game"
+            "video recording/taking pictures",
+            "draw/sketch",
+            "social activity",
+            "system/app using"
         ],
         "Process2": [
             "images/photos",
             "sound",
             "animation/simulation",
+            "AR",
             "installation",
-            "video"
+            "event"
         ],
         "Link1": [
             "https://doi.org/10.1177/1077800420935927"
@@ -1292,22 +1202,20 @@
         "person": [
             "concrete",
             "individual",
-            "not specified or anyone"
+            "residential"
         ],
         "place": [
             "imagined/psychological place",
             "country/continent"
         ],
         "Process1": [
-            "questionnaire/open call",
-            "personal experience",
-            "draw/sketch"
+            "draw/sketch",
+            "social activity"
         ],
         "Process2": [
             "layout",
             "annotated content/associated stories",
-            "static image",
-            "event"
+            "static image"
         ],
         "Link1": [],
         "Link2": [
@@ -1349,34 +1257,6 @@
         "Link3": [],
         "Link4": [],
         "images": "SoundingOutMySilence_ Reading a LGBTQ Youth_s Sonic Cartography as Multimodal (Counter)Storytelling.png"
-    },
-    {
-        "name": " So you’ve decided to map sidewalk poop in San Francisco…",
-        "author": "Jennifer Wong",
-        "person": [
-            "abstract/representitive"
-        ],
-        "place": [
-            "realistic place",
-            "city/town"
-        ],
-        "Process1": [],
-        "Process2": [
-            "color",
-            "images/photos",
-            "static image"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://doi.org/10.1177/0309132519899733"
-        ],
-        "Link3": [
-            "https://mochimachine.org/wasteland/"
-        ],
-        "Link4": [
-            "https://www.bloomberg.com/news/articles/2014-11-20/so-you-ve-decided-to-map-sidewalk-poop-in-san-francisco"
-        ],
-        "images": "So you’ve decided to map sidewalk poop in San Francisco….png"
     },
     {
         "name": "A map of western Africa",
@@ -1438,20 +1318,25 @@
         "person": [
             "concrete",
             "individual",
-            "not specified or anyone"
+            "traveller"
         ],
         "place": [
-            "realistic place",
+            "imagined/psychological place",
             "island/marine"
         ],
         "Process1": [
-            "draw/sketch",
-            "co-design",
-            "prepared toolkit"
+            "prepared toolkit",
+            "draw/sketch"
         ],
         "Process2": [
-            "stylize(hand-drawn style)",
-            "event"
+            "color",
+            "images/photos",
+            "typography",
+            "symbol/metaphor",
+            "annotated content/associated stories",
+            "style",
+            "event",
+            "static image"
         ],
         "Link1": [
             "https://research-portal.st-andrews.ac.uk/en/publications/everybody-map-now-participatory-map-making-on-bumpkin-island"
@@ -1459,7 +1344,7 @@
         "Link2": [],
         "Link3": [
             "http://www.utahinrichs.de/Projects/BumpkinIslandMapArchive",
-            
+            "",
             "http://www.utahinrichs.de/uta/uploads/Publications/Publications/BumpkinIsland.pdf"
         ],
         "Link4": [],
@@ -1478,7 +1363,7 @@
             "city/town"
         ],
         "Process1": [
-            "co-design"
+            "social activity"
         ],
         "Process2": [
             "images/photos",
@@ -1508,8 +1393,7 @@
         ],
         "Process1": [
             "draw/sketch",
-            "fieldwork",
-            "co-design"
+            "fieldwork"
         ],
         "Process2": [
             "annotated content/associated stories",
@@ -1565,7 +1449,8 @@
         ],
         "Process1": [
             "fieldwork",
-            "interview"
+            "interview",
+            "video recording/taking pictures"
         ],
         "Process2": [
             "collage",
@@ -1603,13 +1488,11 @@
         "Link1": [
             "https://issuu.com/museoreinasofia/docs/constant._ingl__s"
         ],
-        "Link2": [
-            "https://www.taylorfrancis.com/books/mono/10.4324/9780367196400/mapping-paradigms-modern-contemporary-art-simonetta-moro"
-        ],
+        "Link2": [],
         "Link3": [],
         "Link4": [
             "https://en.wikipedia.org/wiki/New_Babylon_(Constant_Nieuwenhuys)",
-            
+            "",
             "https://www.macba.cat/en/obra/r3207-new-babylon/"
         ],
         "images": "New Babylon.png"
@@ -1632,7 +1515,6 @@
         ],
         "Process2": [
             "annotated content/associated stories",
-            "animation/simulation",
             "video"
         ],
         "Link1": [],
@@ -1673,38 +1555,10 @@
         "Link3": [],
         "Link4": [
             "https://www.instagram.com/dcmooregallery/p/C15Um-prjUB/?img_index=3",
-            
+            "",
             "https://www.mediacombo.net/case-study/joyce-kozloff-everson-museum"
         ],
         "images": "Memory and Time_ Labor and Cultural History.png"
-    },
-    {
-        "name": "Of flesh and bone: Guillermo Kuitca, Untitled (Torino). ",
-        "author": "Guillermo Kuitca",
-        "person": [
-            "abstract/representitive"
-        ],
-        "place": [
-            "city/town"
-        ],
-        "Process1": [
-            "inherent emotional attitude"
-        ],
-        "Process2": [
-            "color",
-            "typography",
-            "symbol/metaphor",
-            "static image"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://books.google.co.id/books?hl=zh-CN&lr=&id=4F4PKXuC2HEC&oi=fnd&pg=PR7&dq=Atlas+of+Emotion:+Journeys+in+Art,+Architecture,+and+Film.&ots=6gxF9zNCkV&sig=xDA6hvfDl3rbVXH0utU7MN_V-fQ&redir_esc=y#v=onepage&q=Atlas%20of%20Emotion%3A%20Journeys%20in%20Art%2C%20Architecture%2C%20and%20Film.&f=false"
-        ],
-        "Link3": [],
-        "Link4": [
-            "https://amorartinfo.blogspot.com/2012/07/guillermo-kuitca-pintor-argentino-de_20.html"
-        ],
-        "images": "Of flesh and bone_ Guillermo Kuitca, Untitled (Torino)_ .png"
     },
     {
         "name": "Lisbon's Traffic",
@@ -1723,14 +1577,12 @@
             "color",
             "animation/simulation",
             "symbol/metaphor",
-            "static image"
+            "video"
         ],
         "Link1": [
             "https://dl.acm.org/doi/pdf/10.1145/2037715.2037818"
         ],
-        "Link2": [
-            "http://visap.uic.edu/2015/VISAP15-Papers/visap2015_Cruz_WrongfullyRight.pdf"
-        ],
+        "Link2": [],
         "Link3": [
             "https://vimeo.com/10198615"
         ],
@@ -1756,7 +1608,7 @@
         "Process2": [
             "sound",
             "annotated content/associated stories",
-            "installation"
+            "event"
         ],
         "Link1": [],
         "Link2": [
@@ -1781,12 +1633,12 @@
             "city/town"
         ],
         "Process1": [
-            "dérive/walk/wander/tour",
-            "event/game"
+            "dérive/walk/wander/tour"
         ],
         "Process2": [
             "color",
             "wording",
+            "physicalization",
             "event"
         ],
         "Link1": [],
@@ -1813,7 +1665,7 @@
             "architecture/area"
         ],
         "Process1": [
-            "questionnaire/open call"
+            "social activity"
         ],
         "Process2": [
             "annotated content/associated stories",
@@ -1869,7 +1721,7 @@
             "abstract/representitive"
         ],
         "place": [
-            "realistic place",
+            "imagined/psychological place",
             "country/continent"
         ],
         "Process1": [
@@ -1931,12 +1783,12 @@
             "city/town"
         ],
         "Process1": [
-            "personal experience",
             "video recording/taking pictures"
         ],
         "Process2": [
             "images/photos",
             "color",
+            "style",
             "static image"
         ],
         "Link1": [],
@@ -1961,18 +1813,17 @@
         ],
         "Process1": [
             "dérive/walk/wander/tour",
-            "draw/sketch",
             "prepared toolkit"
         ],
         "Process2": [
+            "collage",
+            "annotated content/associated stories",
             "event"
         ],
         "Link1": [
             "https://link.springer.com/chapter/10.1057/9781137025050_14"
         ],
-        "Link2": [
-            "https://link.springer.com/chapter/10.1007/978-3-642-15537-6_5"
-        ],
+        "Link2": [],
         "Link3": [
             "https://www.simonettamoro.com/works/psychogeographies/pbox/index.html"
         ],
@@ -1989,7 +1840,7 @@
         ],
         "place": [
             "memorized place",
-            "others or not specified"
+            "city/town"
         ],
         "Process1": [
             "personal experience"
@@ -1997,6 +1848,7 @@
         "Process2": [
             "color",
             "collage",
+            "style",
             "static image"
         ],
         "Link1": [
@@ -2020,8 +1872,7 @@
             "city/town"
         ],
         "Process1": [
-            "event/game",
-            "workshop"
+            "social activity"
         ],
         "Process2": [
             "annotated content/associated stories",
@@ -2061,23 +1912,22 @@
             "physicalization",
             "body language",
             "gauze",
-            "performance"
+            "performance",
+            "artifact"
         ],
         "Link1": [
             "https://doi.org/10.18357/bigr42202321513"
         ],
-        "Link2": [
-          
-        ],
+        "Link2": [],
         "Link3": [
             "https://ariane-littman.com/2021/09/wounded-land-exhibition/?setslidercat=map-land",
-            
+            "",
             "https://www.artiststudiosjlm.org/wounded-land.html",
-            
+            "",
             "https://ariane-littman.com/2019/03/embryo/?setslidercat=map-land",
-            
+            "",
             "https://ariane-littman.com/2017/11/twins-embryos-2017-2018/?setslidercat=map-land",
-            
+            "",
             "https://ariane-littman.com/2014/09/dada-jerusalem/?setslidercat=map-land"
         ],
         "Link4": [],
@@ -2106,16 +1956,13 @@
             "collage",
             "body language",
             "gauze",
-            "installation",
             "performance",
-            "static image"
+            "artifact"
         ],
         "Link1": [
             "https://doi.org/10.18357/bigr42202321513"
         ],
-        "Link2": [
-           
-        ],
+        "Link2": [],
         "Link3": [
             "https://ariane-littman.com/2015/04/grafted-land/?setslidercat=map-land"
         ],
@@ -2144,14 +1991,13 @@
             "physicalization",
             "body language",
             "paper",
-            "video"
+            "performance",
+            "artifact"
         ],
         "Link1": [
             "https://doi.org/10.18357/bigr42202321513"
         ],
-        "Link2": [
-            
-        ],
+        "Link2": [],
         "Link3": [
             "https://ariane-littman.com/2010/05/shredded-land/?setslidercat=map-land"
         ],
@@ -2180,7 +2026,8 @@
             "symbol/metaphor",
             "body language",
             "flour",
-            "performance"
+            "performance",
+            "artifact"
         ],
         "Link1": [
             "https://doi.org/10.18357/bigr42202321513"
@@ -2192,7 +2039,6 @@
         "Link4": [],
         "images": "Erasure _ Mehika.png"
     },
-    
     {
         "name": "From oral histories to visual narratives_ re-presenting the post-September 11 experiences of the Muslim women in the USA",
         "author": "Mei-Po Kwan",
@@ -2221,9 +2067,7 @@
         "Link1": [
             "http://meipokwan.org/Paper/SCG_2008.pdf"
         ],
-        "Link2": [
-           
-        ],
+        "Link2": [],
         "Link3": [],
         "Link4": [],
         "images": "From oral histories to visual narratives_ re-presenting the post-September 11 experiences of the Muslim women in the USA.png"
@@ -2266,7 +2110,9 @@
             "realistic place",
             "island/marine"
         ],
-        "Process1": [],
+        "Process1": [
+            "historical material mining"
+        ],
         "Process2": [
             "sound",
             "annotated content/associated stories",
@@ -2295,7 +2141,8 @@
             "others or not specified"
         ],
         "Process1": [
-            "system/app using"
+            "system/app using",
+            "social activity"
         ],
         "Process2": [
             "annotated content/associated stories",
@@ -2320,14 +2167,15 @@
         ],
         "place": [
             "realistic place",
-            "others or not specified"
+            "city/town"
         ],
         "Process1": [
-            "system/app using"
+            "system/app using",
+            "social activity"
         ],
         "Process2": [
             "color",
-            "personalized genre/style",
+            "personalization",
             "interactive interface"
         ],
         "Link1": [
@@ -2354,7 +2202,7 @@
             "city/town"
         ],
         "Process1": [
-            "event/game"
+            "social activity"
         ],
         "Process2": [
             "annotated content/associated stories",
@@ -2383,7 +2231,8 @@
             "city/town"
         ],
         "Process1": [
-            "system/app using"
+            "system/app using",
+            "social activity"
         ],
         "Process2": [
             "annotated content/associated stories",
@@ -2412,7 +2261,8 @@
             "world"
         ],
         "Process1": [
-            "system/app using"
+            "system/app using",
+            "social activity"
         ],
         "Process2": [
             "layout",
@@ -2425,5 +2275,35 @@
         "Link3": [],
         "Link4": [],
         "images": "Worldview.png"
+    },
+    {
+        "name": "So you’ve decided to map sidewalk poop in San Francisco…",
+        "author": "Jennifer Wong",
+        "person": [
+            "abstract/representitive"
+        ],
+        "place": [
+            "realistic place",
+            "city/town"
+        ],
+        "Process1": [
+            "emotional facts"
+        ],
+        "Process2": [
+            "color",
+            "images/photos",
+            "static image"
+        ],
+        "Link1": [],
+        "Link2": [
+            "https://doi.org/10.1177/0309132519899733"
+        ],
+        "Link3": [
+            "https://mochimachine.org/wasteland/"
+        ],
+        "Link4": [
+            "https://www.bloomberg.com/news/articles/2014-11-20/so-you-ve-decided-to-map-sidewalk-poop-in-san-francisco"
+        ],
+        "images": "So you’ve decided to map sidewalk poop in San Francisco….png"
     }
 ]
