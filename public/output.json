@@ -177,95 +177,6 @@
         "images": "Mapping Memories of Exiles_ Combining Conventional and Alternative Cartographic Approaches.png"
     },
     {
-        "name": "Surrealist map of the world. (From Variétés, Brussels, June 1929.)",
-        "author": "Denis Wood suggests Éluard likely made the map.",
-        "person": [
-            "abstract/representitive"
-        ],
-        "place": [
-            "imagined/psychological place",
-            "world"
-        ],
-        "Process1": [
-            "inherent emotional attitude"
-        ],
-        "Process2": [
-            "layout",
-            "static image"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://books.google.co.id/books?hl=zh-CN&lr=&id=2t3AwxI81pYC&oi=fnd&pg=PA1&dq=The+Power+of+Maps,&ots=gJP3L2wH4f&sig=KWz051j6qKQmnrYAh9Jmq2RnQ2A&redir_esc=y#v=onepage&q=The%20Power%20of%20Maps%2C&f=false"
-        ],
-        "Link3": [],
-        "Link4": [
-            "https://jacket2.org/commentary/avant-garde-ii-surrealist-map-world"
-        ],
-        "images": "Surrealist map of the world_ (From Variétés, Brussels, June 1929_).png"
-    },
-    {
-        "name": "Psychogeographic guide of Paris",
-        "author": "Guy Debord",
-        "person": [
-            "abstract/representitive"
-        ],
-        "place": [
-            "imagined/psychological place",
-            "city/town"
-        ],
-        "Process1": [
-            "dérive/walk/wander/tour",
-            "inherent emotional attitude"
-        ],
-        "Process2": [
-            "color",
-            "symbol/metaphor",
-            "collage",
-            "static image"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://doi.org/10.4324/9780367196400"
-        ],
-        "Link3": [],
-        "Link4": [
-            "https://imaginarymuseum.org/LPG/Mapsitu1.htm"
-        ],
-        "images": "Psychogeographic guide of Paris.png"
-    },
-    {
-        "name": "The Naked City",
-        "author": "Guy Debord",
-        "person": [
-            "abstract/representitive"
-        ],
-        "place": [
-            "imagined/psychological place",
-            "city/town"
-        ],
-        "Process1": [
-            "dérive/walk/wander/tour",
-            "inherent emotional attitude"
-        ],
-        "Process2": [
-            "color",
-            "symbol/metaphor",
-            "collage",
-            "static image"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://doi.org/10.4324/9780367196400"
-        ],
-        "Link3": [],
-        "Link4": [
-            "https://situationnisteblog.wordpress.com/2015/06/07/the-naked-city-illustration-de-lhypothese-des-plaques-tournantes-en-psychogeographique-sic-1957/",
-            
-            "https://paulwalshphotographyblog.wordpress.com/2013/07/08/the-naked-city/"
-        ],
-        "images": "The Naked City.png"
-    },
-    {
         "name": "Space-time Cubes",
         "author": "Joanna Gardener",
         "person": [
@@ -456,6 +367,161 @@
         ],
         "Link4": [],
         "images": "Smell maps.png"
+    },
+    {
+        "name": "Surrealist map of the world. (From Variétés, Brussels, June 1929.)",
+        "author": "Denis Wood suggests Éluard likely made the map.",
+        "person": [
+            "abstract/representitive"
+        ],
+        "place": [
+            "imagined/psychological place",
+            "world"
+        ],
+        "Process1": [
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "layout",
+            "static image"
+        ],
+        "Link1": [],
+        "Link2": [
+            "https://books.google.co.id/books?hl=zh-CN&lr=&id=2t3AwxI81pYC&oi=fnd&pg=PA1&dq=The+Power+of+Maps,&ots=gJP3L2wH4f&sig=KWz051j6qKQmnrYAh9Jmq2RnQ2A&redir_esc=y#v=onepage&q=The%20Power%20of%20Maps%2C&f=false"
+        ],
+        "Link3": [],
+        "Link4": [
+            "https://jacket2.org/commentary/avant-garde-ii-surrealist-map-world"
+        ],
+        "images": "Surrealist map of the world_ (From Variétés, Brussels, June 1929_).png"
+    },
+    {
+        "name": "Psychogeographic guide of Paris",
+        "author": "Guy Debord",
+        "person": [
+            "concrete",
+            "individual",
+            "not specified or anyone"
+        ],
+        "place": [
+            "imagined/psychological place",
+            "city/town"
+        ],
+        "Process1": [
+            "dérive/walk/wander/tour",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "color",
+            "symbol/metaphor",
+            "collage",
+            "static image"
+        ],
+        "Link1": [],
+        "Link2": [
+            "https://doi.org/10.4324/9780367196400"
+        ],
+        "Link3": [],
+        "Link4": [
+            "https://imaginarymuseum.org/LPG/Mapsitu1.htm"
+        ],
+        "images": "Psychogeographic guide of Paris.png"
+    },
+    {
+        "name": "The Naked City",
+        "author": "Guy Debord",
+        "person": [
+            "concrete",
+            "individual",
+            "not specified or anyone"
+        ],
+        "place": [
+            "imagined/psychological place",
+            "city/town"
+        ],
+        "Process1": [
+            "dérive/walk/wander/tour",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "color",
+            "symbol/metaphor",
+            "collage",
+            "static image"
+        ],
+        "Link1": [],
+        "Link2": [
+            "https://doi.org/10.4324/9780367196400"
+        ],
+        "Link3": [],
+        "Link4": [
+            "https://situationnisteblog.wordpress.com/2015/06/07/the-naked-city-illustration-de-lhypothese-des-plaques-tournantes-en-psychogeographique-sic-1957/",
+            
+            "https://paulwalshphotographyblog.wordpress.com/2013/07/08/the-naked-city/"
+        ],
+        "images": "The Naked City.png"
+    },
+    {
+        "name": "Memory and Time: Labor and Cultural History",
+        "author": "Joyce Kozloff",
+        "person": [
+            "abstract/representitive"
+        ],
+        "place": [
+            "realistic place",
+            "architecture/area"
+        ],
+        "Process1": [
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "images/photos",
+            "shape",
+            "color",
+            "physicalization",
+            "tile",
+            "installation"
+        ],
+        "Link1": [],
+        "Link2": [
+            "https://www.taylorfrancis.com/books/mono/10.4324/9780367196400/mapping-paradigms-modern-contemporary-art-simonetta-moro"
+        ],
+        "Link3": [],
+        "Link4": [
+            "https://www.instagram.com/dcmooregallery/p/C15Um-prjUB/?img_index=3",
+            
+            "https://www.mediacombo.net/case-study/joyce-kozloff-everson-museum"
+        ],
+        "images": "Memory and Time_ Labor and Cultural History.png"
+    },
+    {
+        "name": "Lisbon's Traffic",
+        "author": "Pedro Cruz, Penousal Machado",
+        "person": [
+            "abstract/representitive"
+        ],
+        "place": [
+            "realistic place",
+            "city/town"
+        ],
+        "Process1": [
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "color",
+            "animation/simulation",
+            "symbol/metaphor",
+            "video"
+        ],
+        "Link1": [
+            "https://dl.acm.org/doi/pdf/10.1145/2037715.2037818"
+        ],
+        "Link2": [],
+        "Link3": [
+            "https://vimeo.com/10198615"
+        ],
+        "Link4": [],
+        "images": "Lisbon_s Traffic.png"
     },
     {
         "name": "Bang! You’re Dead.",
@@ -865,7 +931,10 @@
         "name": "The Last Piece Is You",
         "author": "Margaret Wickens Pearce",
         "person": [
-            "abstract/representitive"
+            "concrete",
+            "group/collective",
+            "cultural",
+            "residential"
         ],
         "place": [
             "realistic place",
@@ -1526,68 +1595,6 @@
             "https://www.moma.org/calendar/exhibitions/1627"
         ],
         "images": "The Mapping Journey Project.png"
-    },
-    {
-        "name": "Memory and Time: Labor and Cultural History",
-        "author": "Joyce Kozloff",
-        "person": [
-            "abstract/representitive"
-        ],
-        "place": [
-            "realistic place",
-            "architecture/area"
-        ],
-        "Process1": [
-            "inherent emotional attitude"
-        ],
-        "Process2": [
-            "images/photos",
-            "shape",
-            "color",
-            "physicalization",
-            "tile",
-            "installation"
-        ],
-        "Link1": [],
-        "Link2": [
-            "https://www.taylorfrancis.com/books/mono/10.4324/9780367196400/mapping-paradigms-modern-contemporary-art-simonetta-moro"
-        ],
-        "Link3": [],
-        "Link4": [
-            "https://www.instagram.com/dcmooregallery/p/C15Um-prjUB/?img_index=3",
-            
-            "https://www.mediacombo.net/case-study/joyce-kozloff-everson-museum"
-        ],
-        "images": "Memory and Time_ Labor and Cultural History.png"
-    },
-    {
-        "name": "Lisbon's Traffic",
-        "author": "Pedro Cruz, Penousal Machado",
-        "person": [
-            "abstract/representitive"
-        ],
-        "place": [
-            "realistic place",
-            "city/town"
-        ],
-        "Process1": [
-            "inherent emotional attitude"
-        ],
-        "Process2": [
-            "color",
-            "animation/simulation",
-            "symbol/metaphor",
-            "video"
-        ],
-        "Link1": [
-            "https://dl.acm.org/doi/pdf/10.1145/2037715.2037818"
-        ],
-        "Link2": [],
-        "Link3": [
-            "https://vimeo.com/10198615"
-        ],
-        "Link4": [],
-        "images": "Lisbon_s Traffic.png"
     },
     {
         "name": "Core Sample",

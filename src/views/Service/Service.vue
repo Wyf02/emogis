@@ -184,18 +184,20 @@
         persons:[
             'concrete', 'abstract/representitive',
             'group/collective', 'individual',
-            'age', 'class', 'traveller', 'gender', 'cultural', 'residential', 'racial', 'special status', 'not specified or anyone'],
-        places: ['realistic place', 'memorized place', 'imagined/psychological place',
-       'rural/non-urban', 'city/town', 'architecture/area', 'world', 'country/continent', 'island/marine', 'others or not specified'
+            'racial', 'residential', 'traveller', 'age', 'gender', 'class', 'cultural', 'special status', 'not specified or anyone'
+        ],
+        places: ['imagined/psychological place', 'realistic place', 'memorized place',
+        'city/town', 'architecture/area', 'world', 'country/continent', 'island/marine', 'rural/non-urban','others or not specified'
     ],
         Process1s: 
-        ['fieldwork', 'prepared toolkit', 'inherent emotional attitude', 'interview', 'sensor/device', 'emotional facts', 'dérive/walk/wander/tour', 'system/app using', 'social activity', 'personal experience', 'draw/sketch', 'video recording/taking pictures', 'historical material mining'
+        [
+            'historical material mining', 'dérive/walk/wander/tour', 'personal experience', 'sensor/device', 'draw/sketch', 'prepared toolkit', 'emotional facts', 'fieldwork', 'system/app using', 'inherent emotional attitude', 'interview', 'social activity', 'video recording/taking pictures'
         ],
-        Process2:['shape', 'personalization', 'AR', 'annotated content/associated stories', 'wording', 'sound', 'layout', 'collage', 'animation/simulation', '2.5D/3D', 'typography', 'body language', 'images/photos', 'avatar', 'style', 
-        'color', 'symbol/metaphor','physicalization', 
-    'paper', 'flour', 'gauze', 'water/ice', 'organic', 'tile', 'cloth',
+        Process2:['typography', 'layout',  'collage', 'shape', 'AR', 'personalization', '2.5D/3D', 'sound', 'symbol/metaphor', 'body language', 'images/photos', 'animation/simulation', 'color', 
+        'wording', 'style', 'avatar', 'annotated content/associated stories', 'physicalization',
+    'tile', 'flour', 'paper', 'gauze', 'water/ice', 'organic', 'cloth',
     'GUI interaction', 'add stickers',
-    'event', 'installation', 'static image', 'artifact', 'video', 'performance', 'interactive interface'
+    'installation', 'video', 'interactive interface', 'performance', 'event', 'static image', 'artifact'
     ],
         
         selectedFilters: {
