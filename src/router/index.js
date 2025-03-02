@@ -2,20 +2,20 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component:HomeView,
-  //   meta:{
-  //     title: 'HOME'
-  //   }
-  // },
   {
     path: '/',
     name: 'home',
-    component:() =>import('../views/Service/Service.vue'),
+    component:HomeView,
     meta:{
       title: 'HOME'
+    }
+  },
+  {
+    path: '/DataSet',
+    name: 'DataSet',
+    component:() =>import('../views/Service/Service.vue'),
+    meta:{
+      title: 'DataSet'
     }
   },
   // {
@@ -26,23 +26,16 @@ const routes = [
   //     title: 'About'
   //   }
   // },
-  // {
-  //   path:'/service',
-  //   name:'servive',
-  //   component:() =>import('../views/Service/Service.vue'),
-  //   meta:{
-  //     title: 'Service&Area'
-  //   }
-  // },
+
  
-  // {
-  //   path:'/Report',
-  //   name:'Report',
-  //   component:()=>import('../views/Report/Report.vue'),
-  //   meta:{
-  //     title: 'Report'
-  //   }
-  // },
+  {
+    path:'/Report',
+    name:'Report',
+    component:()=>import('../views/Report/Report.vue'),
+    meta:{
+      title: 'Report'
+    }
+  },
   {
     path:'/ReportDetail',
     name:'ReportDetail',
@@ -51,15 +44,7 @@ const routes = [
       title: 'ReportDetail',
     }
   },
-  // {
-  //   path:'/login',
-  //   name:'login',
-  //   component:()=>import('../views/Login.vue'),
-  //   meta:{
-  //     title: 'login',
-  //   }
-  // },
-  
+
 ]
 
 const router = createRouter({

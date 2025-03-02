@@ -78,8 +78,10 @@ export default {
   data(){
    
    return{
-    jsonFilePath:["artPaper_counts","datatype_counts","designCategory_counts","designParadigm_counts","time_counts","whatPurpose_counts","whereField_counts","designTechnique_counts_sorted"], 
-    jsonFilePathCloud:['authors','affiliations','majors'],   
+    jsonFilePath:["emogis/artPaper_counts","emogis/datatype_counts","emogis/designCategory_counts",
+    "emogis/designParadigm_counts","emogis/time_counts","emogis/whatPurpose_counts",
+    "emogis/whereField_counts","emogis/designTechnique_counts_sorted"], 
+    jsonFilePathCloud:['emogis/authors','emogis/affiliations','emogis/majors'],   
     selectedSectionId: 'introduction', // Initially show the 'Introduction' section
         sections: [
             { id: 'introduction', name: 'Introduction' },

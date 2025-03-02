@@ -182,22 +182,20 @@
         banner:require('@/assets/images/first/home.png'),        
         // times:['1996', '2002', '2003', '2004', '2006', '2007', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
         persons:[
-            'concrete', 'abstract/representitive',
             'group/collective', 'individual',
-            'racial', 'residential', 'traveller', 'age', 'gender', 'class', 'cultural', 'special status', 'not specified or anyone'
+            'class', 'traveller', 'special status', 'cultural', 'racial', 'age', 'residential', 'gender'  , 'not specified or anyone'  
         ],
         places: ['imagined/psychological place', 'realistic place', 'memorized place',
-        'city/town', 'architecture/area', 'world', 'country/continent', 'island/marine', 'rural/non-urban','others or not specified'
+        'rural/non-urban', 'country/continent', 'architecture/area', 'island/marine', 'world', 'city/town'
     ],
         Process1s: 
         [
-            'historical material mining', 'dérive/walk/wander/tour', 'personal experience', 'sensor/device', 'draw/sketch', 'prepared toolkit', 'emotional facts', 'fieldwork', 'system/app using', 'inherent emotional attitude', 'interview', 'social activity', 'video recording/taking pictures'
-        ],
-        Process2:['typography', 'layout',  'collage', 'shape', 'AR', 'personalization', '2.5D/3D', 'sound', 'symbol/metaphor', 'body language', 'images/photos', 'animation/simulation', 'color', 
-        'wording', 'style', 'avatar', 'annotated content/associated stories', 'physicalization',
-    'tile', 'flour', 'paper', 'gauze', 'water/ice', 'organic', 'cloth',
+    'fieldwork', 'system/app using', 'Embodied movement', 'interview', 'historical material mining', 'draw/sketch', 'video recording/taking pictures', 'sensor/device', 'social activity', 'prepared toolkit', 'questionnaire/open call', 'inherent emotional attitude', 'personal experience'       
+    ],
+        Process2:['typography', 'collage', 'animation/simulation', 'sound', 'layout', 'wording', 'avatar', 'color', 'style', 'body language', '2.5D/3D', 'images/photos', 'annotated content/associated stories', 'shape', 'symbol/metaphor', 'personalization', 'physicalization',
+         'cloth', 'screen printing', 'gauze', 'flour', 'paper', 'glass', 'organic', 'water/ice',
     'GUI interaction', 'add stickers',
-    'installation', 'video', 'interactive interface', 'performance', 'event', 'static image', 'artifact'
+    'performance', 'artifact', 'static image', 'installation', 'video', 'event', 'interactive interface'
     ],
         
         selectedFilters: {

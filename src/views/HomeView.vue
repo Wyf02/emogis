@@ -4,10 +4,10 @@
   <section class="homepage" id="home" >
       <div class="content">
         <div class="text">
-          <h1>{{Page1.title[Language]}}</h1>
-          <p >{{Page1.content[Language]}}</p>
+          <h1>{{Page1.title}}</h1>
+          <p >{{Page1.content}}</p>
         </div>
-        <a href="/About">{{details[Language] }} >></a>
+        <a href="/DataSet">{{details }} >></a>
       </div>
     </section>
 
@@ -35,7 +35,7 @@
         </div>
         <div class="textLeft">
           <h1>{{Page2.title[Language]}}</h1>
-          <p>{{Page2.content[Language]}}</p>
+          <p>{{Page2.content}}</p>
         </div>
         
       </div>
@@ -49,15 +49,15 @@
           <img class="imageShow" :src="Page2.img" alt="图片描述">
         </div>
         <div class="textLeft">
-          <h1>{{Page2.title[Language]}}</h1>
-          <p>{{Page2.content[Language]}}</p>
+          <h1>{{Page2.title}}</h1>
+          <p>{{Page2.content}}</p>
         </div>
         
       </div>
     </section>
   <!-- <section></section> -->
   
-  <!-- <section class="homepage"  :style="{ backgroundImage: `url(${Page3.img})` }" >
+ <section class="homepage"  :style="{ backgroundImage: `url(${Page3.img})` }" >
       <div class="content">
         <div class="text">
           <h1>{{Page3.title[Language]}}</h1>
@@ -65,10 +65,10 @@
         </div>
         <a href="/service">{{ details[Language] }} >></a>
       </div>
-    </section> -->
+    </section>
 
    
-    <!-- <section class="homepage"  :style="{ backgroundImage: `url(${Page6.img})` }" >
+    <section class="homepage"  :style="{ backgroundImage: `url(${Page6.img})` }" >
       <div class="content">
         <div class="text">
           <h1>{{Page6.title[Language]}}</h1>
@@ -86,7 +86,7 @@
         </div>
         <a href="/Report">{{ details[Language] }} >></a>
       </div>
-    </section> -->
+    </section>
 
   </div>
 </template>
@@ -115,13 +115,13 @@ export default {
     let self = this;
     return {
       Language:this.$store.state.Language,
-      details:["开始探索","explore"],
-      Page1:{title:["关于数据集","About Policy Nexus"],content:['Insights  ·  Connect  ·  Thrive','Insights  ·  Connect  ·  Thrive'],img:require('@/assets/images/first/home.png')},
-      Page2:{title:["Aboard","Aboard"],content:['11','EN'],img:require('@/assets/images/first/home.png')},
-      Page3:{title:["What We Do","What We Do"],content:['11','111'],img:require('@/assets/images/first/home.png')},
-      Page4:{title:["About","About"],content:['11','EN'],img:require('@/assets/images/first/home.png')},
-      Page5:{title:["Insights","Insights"],content:['11','11'],img:require('@/assets/images/first/home.png')},
-      Page6:{title:["Our Connections","Our Connections"],content:['11','11'],img:require('@/assets/images/first/home.png')}
+      details:"Explore",
+      Page1:{title:"Emotional Landscapes",content:"Understanding Affective Geovisualization Design Through the Lens of People-Place Relationships",img:require('@/assets/images/first/home.jpg')},
+      Page2:{title:["Aboard","Aboard"],content:['11','EN'],img:require('@/assets/images/first/home.jpg')},
+      Page3:{title:["What We Do","What We Do"],content:['11','111'],img:require('@/assets/images/first/home.jpg')},
+      Page4:{title:["About","About"],content:['11','EN'],img:require('@/assets/images/first/home.jpg')},
+      Page5:{title:["Insights","Insights"],content:['11','11'],img:require('@/assets/images/first/home.jpg')},
+      Page6:{title:["Our Connections","Our Connections"],content:['11','11'],img:require('@/assets/images/first/home.jpg')}
 
      
     };
@@ -132,11 +132,11 @@ export default {
 
 <style>
 #home{
-  background-image: url('@/assets/images/first/home.png');
+  background-image: url('@/assets/images/first/home.jpg');
 }
 @media screen and (max-width: 860px) {
   #home{
-    background-image: url('@/assets/images/first/home.png');
+    background-image: url('@/assets/images/first/home.jpg');
   }
 }
 .AboardsTable{

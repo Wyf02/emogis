@@ -7,7 +7,7 @@
 
 <template>
   <div class="page">
-    <!-- <HeaderWidget v-show="showNav"></HeaderWidget> -->
+    <HeaderWidget v-show="showNav"></HeaderWidget>
     <router-view></router-view>
     <!-- <ContactView></ContactView>  -->
   </div>

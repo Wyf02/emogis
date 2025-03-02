@@ -2,10 +2,10 @@
     <!-- <div class="head">
       <div class="ribbon" >
         <router-link to="/" class="homePage"> <img  src="../assets/images/logo.png" style="width: 80%; height:80%;opacity: 1;"> </router-link>
-        <router-link tag="a" target="_blank" to="/About" class="homePage" >{{ About[Language] }}</router-link>
-        <router-link tag="a" target="_blank" to="/service" class="homePage" >{{ Service[Language] }}</router-link>
-        <router-link tag="a" target="_blank" to="/Report" class="homePage" >{{ Details[Language] }}</router-link>
-        <router-link tag="a" target="_blank" to="/Connection" class="homePage" >{{ Find[Language] }}</router-link>
+        <router-link tag="a" target="_blank" to="/About" class="homePage" >{{ About }}</router-link>
+        <router-link tag="a" target="_blank" to="/service" class="homePage" >{{ Service }}</router-link>
+        <router-link tag="a" target="_blank" to="/Report" class="homePage" >{{ Details }}</router-link>
+        <router-link tag="a" target="_blank" to="/Connection" class="homePage" >{{ Find }}</router-link>
       <button class="button1" @click="changeCN">中</button><span style="color: white;"> | </span><button  class="button1" @click="changeEN">EN</button>
       </div>
 
@@ -13,8 +13,8 @@
     
 <div class="header1">
     <nav class="navbar">
-      <router-link to="/" class="homePage" style="width: 55%;font-weight: bold;color:white;text-align: left;margin-left: 2%;font-size:2vw;white-space: nowrap;"> 
-        <!-- HOME -->
+      <router-link to="/" class="homePage" style="width: 40%;font-weight: bold;color:white;text-align: left;margin-left: 2%;font-size:2vw;white-space: nowrap;font-family: 'OPTIMA';"> 
+        Emogis DataSet
 <br/>
 <!-- <span style="font-size: small;">(10 Years of VISAP)</span> -->
         <!-- <img  src="../assets/images/logo.png" style="width: 80%; height:80%;opacity: 1;"> -->
@@ -27,16 +27,12 @@
           </svg>
         </label>
         <ul class="all-links">
-        <!-- <li><router-link to="/About"  >{{ About[Language] }}</router-link></li> -->
-        <li><router-link to="/service"  >{{ Service[Language] }}</router-link></li>
-        <!-- <li><router-link to="/Report" >{{ Details[Language] }}</router-link></li> -->
-        <!-- <li><router-link to="/ReportDetail" >{{ analyse[Language] }}</router-link></li> -->
-        <!-- <li><router-link to="/Connection" >{{ Find[Language] }}</router-link></li> -->
-        <!-- <li><button class="button1" @click="changeCN">中</button><span style="color: black;"> | </span><button  class="button1" @click="changeEN">EN</button></li> -->
-        <!-- <li >
-          <button class="button1" v-if="loginReg" @click="logout">{{ Logout[Language] }}</button>
-          <router-link to="/login"  v-else="loginReg"><button class="button1">{{ Login[Language] }}</button></router-link>
-        </li> -->
+        <li><router-link to="/DesignSpace"  >{{ DesignSpace}}</router-link></li>
+        <!-- <li><router-link to="/Connection" >{{ Find }}</router-link></li> -->
+        <li><router-link to="/DataSet"  >{{ Service }}</router-link></li>
+        <!-- <li><router-link to="/ReportDetail" >{{ analyse }}</router-link></li> -->
+        <li><router-link to="/Report" >{{ Details }}</router-link></li>
+
         
         </ul>
       </nav>
@@ -45,53 +41,15 @@
 </template>
 <script>
 export default {
-  watch:{
-      '$store.state.Language':{
-        handler(newVal){
-          this.Language=newVal;
-        },
-        deep: true
-      },
-      '$store.state.userInfo':{
-        handler(newVal){
-          let userInfo = JSON.parse(localStorage.getItem('userInfo'));
-          if (null === userInfo){
-            this.loginReg =this.$store.state.userInfo.isLogin
-          }
-          else{
-            console.log('userInfo', userInfo.isLogin);
-            this.loginReg = userInfo.isLogin;
-          }
-        },
-        deep: true
-      },
-    },
-    mounted(){
-      let userInfo = JSON.parse(localStorage.getItem('userInfo'));
-      if (null === userInfo){
-        this.loginReg =this.$store.state.userInfo.isLogin
-      }
-      else{
-        console.log('userInfo', userInfo.isLogin);
-        this.loginReg = userInfo.isLogin;
-      }
-       
-  
-    },
   data() {
     return {
       loginReg:false,
       Language:this.$store.state.Language,
-      // About:["关于我们","About Us"],
-      Service:["Explore Our Dataset","Explore Our Dataset"],
-      Details:["下载数据集","DownLoad"],
-      Find:["一些发现","findings"],
-      analyse:["Data Analysis","Data Analysis"],
-      Login:["登录","Login"],
-      Logout:["注销","Logout"],
-      
-
-
+      DesignSpace:"Design Space",
+      Service:"Explore Our Dataset",
+      Details:"DownLoad",
+      // Find:"Findings",
+      analyse:"Data Analysis",
     };
   },
   methods: {
