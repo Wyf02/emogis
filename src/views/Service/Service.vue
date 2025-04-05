@@ -8,7 +8,7 @@
   </h2> -->
   
   <div class="overlay-text">
-    <h2>Coding review…… </h2>
+    <h2>Emotional map dataset</h2>
   </div>
    
   <img src="@/assets/images/first/home.png" style="height:30vh; width:100%;object-fit: cover;">
@@ -47,7 +47,7 @@
                  </button>
              </div>
      
-             <div class="filter-label">Filter by Process1:</div>
+             <div class="filter-label">Filter by Process:</div>
              <div class="filter-options">
                  <button
                      class="filter-button"
@@ -58,12 +58,7 @@
                      :class="{ 'selected': isSelected('Process1', index) }"
                  >
                      {{ technique }}
-                 </button>
-             </div>
- 
-             <div class="filter-label">Filter by Process2:</div>
-             <div class="filter-options">
-                 <button
+                 </button> <button
                      class="filter-button"
                      :style="getTechColor('Process2',index)"
                      v-for="(purpose, index) in Process2"
@@ -73,8 +68,17 @@
                  >
                      {{ purpose }}
                  </button>
+                 <button
+                     class="filter-button"
+                     :style="getTechColor('Genre',index)"
+                     v-for="(purpose, index) in Genre"
+                     :key="index"
+                     @click="toggleFilter('Genre', index)"
+                     :class="{ 'selected': isSelected('Genre', index) }"
+                 >
+                     {{ purpose }}
+                 </button>
              </div>
-
          </div>
  
          <section class="Articles" id="Articles" :style="{ 'padding': '0px'}">
@@ -121,6 +125,7 @@
                     <p><span class="custom-tag1" :style="{'color':'#478F8D','border':`1px solid #478F8D`}" v-for="(item1, index1) in item.person" :key="index">{{ item1 }}</span></p>
                     <p><span class="custom-tag1" :style="{'color':'#1B4C79','border':`1px solid #1B4C79`}" v-for="(item1, index1) in item.Process1" :key="index">{{ item1 }}</span></p>
                     <p><span class="custom-tag1" :style="{'color':'#8A594E','border':`1px solid #8A594E`}" v-for="(item1, index1) in item.Process2" :key="index">{{ item1 }}</span></p>
+                    <p><span class="custom-tag1" :style="{'color':'grey','border':`1px solid grey`}" v-for="(item1, index1) in item.Genre" :key="index">{{ item1 }}</span></p>
                     <!-- <p style="line-height: 1.2 ;font-size: 0.9rem;">Place:  {{ item.place.length > 0 ? item.place.join(', ') : 'not specified' }}</p>
                     <p style="line-height: 1.2 ;font-size: 0.9rem;">Process1:  {{ item.Process1.length > 0 ? item.Process1.join(', ') : 'not specified' }}</p>
                     <p style="line-height: 1.2 ;font-size: 0.9rem;">Process2:  {{ item.Process2.length > 0 ? item.Process2.join(', ') : 'not specified' }}</p> -->
@@ -172,7 +177,8 @@
         "place":"brown",
         "person":'#478F8D',
         "Process1":'#1B4C79',
-        "Process2":'#8A594E'
+        "Process2":'#8A594E',
+        "Genre":"grey"
         },
         canvas: null,
       ctx: null,
@@ -182,21 +188,21 @@
         banner:require('@/assets/images/first/home.png'),        
         // times:['1996', '2002', '2003', '2004', '2006', '2007', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
         persons:[
-            'group/collective', 'individual',
-            'class', 'traveller', 'special status', 'cultural', 'racial', 'age', 'residential', 'gender'  , 'not specified or anyone'  
+            'group','individual', 'age', 'class', 'gender', 'cultural/racial',
+ 'residential', 'special status', 'traveler', 'not specified or anyone', 
         ],
-        places: ['imagined/psychological place', 'realistic place', 'memorized place',
-        'rural/non-urban', 'country/continent', 'architecture/area', 'island/marine', 'world', 'city/town'
+        places: ['country', 'city', 'world', 'architecture/site', 'non-urban/rural',
+'physical place', 'memorized place', 'psychological place', 
     ],
         Process1s: 
         [
-    'fieldwork', 'system/app using', 'Embodied movement', 'interview', 'historical material mining', 'draw/sketch', 'video recording/taking pictures', 'sensor/device', 'social activity', 'prepared toolkit', 'questionnaire/open call', 'inherent emotional attitude', 'personal experience'       
-    ],
-        Process2:['typography', 'collage', 'animation/simulation', 'sound', 'layout', 'wording', 'avatar', 'color', 'style', 'body language', '2.5D/3D', 'images/photos', 'annotated content/associated stories', 'shape', 'symbol/metaphor', 'personalization', 'physicalization',
-         'cloth', 'screen printing', 'gauze', 'flour', 'paper', 'glass', 'organic', 'water/ice',
-    'GUI interaction', 'add stickers',
-    'performance', 'artifact', 'static image', 'installation', 'video', 'event', 'interactive interface'
-    ],
+    'interview','draw/sketch', 'questionnaire and survey', 'embodied movement',
+'fieldwork and ethnography', 'video recording/taking pictures','hardware', 'historical material mining', 'prepared toolkit',
+'personal experience', 'system/platform development','inherent emotional attitude', 'collaborative activity',],
+        Process2:['adhesive notes', 'typeface', 'image/photo', 'wording/phrasing',
+'layout', 'symbol/metaphor', 'animation/simulation','annotated content/associated stories', 'shape', 'body language',
+'collage', 'color', 'style', 'sound', 'tangible material/texture','personalized visual', 
+    ],Genre:['installation', 'performance','statis image/painting', 'video', 'interactive interface', 'event','artifact'],
         
         selectedFilters: {
             time: [],
@@ -204,6 +210,7 @@
             place: [],
             Process1: [],
             Process2: [],
+            Genre:[],
             // 添加其他属性的选中状态
         },
         jsonData: [ ],
@@ -388,6 +395,7 @@
                      this.selectedFilters.place = [];
                      this.selectedFilters.Process1 = [];
                      this.selectedFilters.Process2 = [];
+                     this.selectedFilters.Genre = [];
                     //  this.selectedFilters.whereField = [];
                      // 添加其他属性的选中状态
                  },
@@ -399,6 +407,7 @@
                      this.selectedFilters.place = -1;
                      this.selectedFilters.Process1 = -1;
                      this.selectedFilters.Process2 = -1;
+                     this.selectedFilters.Genre = -1;
                     //  this.selectedFilters.whereField = -1;
                      // 添加其他属性的选中状态
                  },
@@ -410,7 +419,8 @@
                         //  this.selectedFilters.cluster.length === 0 &&
                          this.selectedFilters.place.length === 0 &&
                          this.selectedFilters.Process1.length === 0 &&
-                         this.selectedFilters.Process2.length === 0
+                         this.selectedFilters.Process2.length === 0 &&
+                         this.selectedFilters.Genre.length === 0 
                         //  this.selectedFilters.whereField.length === 0
                          // 检查其他属性的选中状态
                      );
@@ -463,6 +473,10 @@
                          const Process2Filter =
                              this.selectedFilters.Process2.length === 0 ||
                              this.selectedFilters.Process2.some((selectedIndex) => item.Process2.includes(this.Process2[selectedIndex]));
+                        const GenreFilter =
+                             this.selectedFilters.Genre.length === 0 ||
+                             this.selectedFilters.Genre.some((selectedIndex) => item.Genre.includes(this.Genre[selectedIndex]));
+                         //  const whereFieldFilter =
                         //  const whereFieldFilter =
                         //      this.selectedFilters.whereField.length === 0 ||
                         //      this.selectedFilters.whereField.some((selectedIndex) => item.whereField.includes(this.whereField[selectedIndex]));
@@ -473,7 +487,8 @@
                             //  clusterFilter &&
                              placeFilter &&
                              Process1Filter &&
-                             Process2Filter
+                             Process2Filter&&
+                             GenreFilter
                             //  whereFieldFilter
                              // 添加其他属性的筛选逻辑
                          );

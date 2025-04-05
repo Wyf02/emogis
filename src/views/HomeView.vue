@@ -27,7 +27,7 @@
   <!-- </section> -->
 
   <!-- <section class="Articles" id="Articles"> -->
-    <section class="Articles" >
+    <!-- <section class="Articles" >
       <h2  >11111</h2>
     <div class="showPages" >
         <div class="imageRight">
@@ -39,10 +39,10 @@
         </div>
         
       </div>
-    </section>
+    </section> -->
 
   <!-- <section></section> -->
-   <section class="Articles" >
+   <!-- <section class="Articles" >
     <h2  >11111</h2>
     <div class="showPages" >
         <div class="imageRight">
@@ -54,10 +54,10 @@
         </div>
         
       </div>
-    </section>
+    </section> -->
   <!-- <section></section> -->
   
- <section class="homepage"  :style="{ backgroundImage: `url(${Page3.img})` }" >
+ <!-- <section class="homepage"  :style="{ backgroundImage: `url(${Page3.img})` }" >
       <div class="content">
         <div class="text">
           <h1>{{Page3.title[Language]}}</h1>
@@ -86,7 +86,7 @@
         </div>
         <a href="/Report">{{ details[Language] }} >></a>
       </div>
-    </section>
+    </section> -->
 
   </div>
 </template>
@@ -116,7 +116,7 @@ export default {
     return {
       Language:this.$store.state.Language,
       details:"Explore",
-      Page1:{title:"Emotional Landscapes",content:"Understanding Affective Geovisualization Design Through the Lens of People-Place Relationships",img:require('@/assets/images/first/home.jpg')},
+      Page1:{title:"\"Mapping What I Feel\"",content:"Understanding Affective Geovisualization Design Through the Lens of People-Place Relationships",img:require('@/assets/images/first/home.jpg')},
       Page2:{title:["Aboard","Aboard"],content:['11','EN'],img:require('@/assets/images/first/home.jpg')},
       Page3:{title:["What We Do","What We Do"],content:['11','111'],img:require('@/assets/images/first/home.jpg')},
       Page4:{title:["About","About"],content:['11','EN'],img:require('@/assets/images/first/home.jpg')},

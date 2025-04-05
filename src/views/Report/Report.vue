@@ -2,21 +2,22 @@
     <meta name="viewport" content="initial-scale=1,maximum-scale=3,minimum-scale=1" />  
       <section class="Programs" id="Programs">
         <br/>
-        <h2>{{data0.service[Language]}}</h2>
-        <!-- <p>{{data0.serviceAbstact[Language]}}</p> -->
+        <br/><br/>
+        <h2>{{data0.service}}</h2>
+        <!-- <p>{{data0.serviceAbstact}}</p> -->
         
         <table>
             <thead>
                 <tr>
-                    <th>{{title.time[Language]}}</th>
-                    <th>{{title.name[Language]}}</th>
-                    <th>{{title.content[Language]}}</th>
+                    <th>{{title.time}}</th>
+                    <th>{{title.name}}</th>
+                    <th>{{title.content}}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr v-for="item in displayedData" :key="item.id">
                     <td>{{ item.time }}</td>
-                    <td>{{ item.name[Language] }}</td>
+                    <td>{{ item.name }}</td>
                     <td><button class="button" @click="getDetails(item.id)"><span style="color:black">More >></span></button></td>
                 </tr>
             </tbody>
@@ -42,32 +43,22 @@
   <script>
   import "@/assets/css/style.css";
   export default {
-    watch:{
-      '$store.state.Language':{
-        handler(newVal){
-          this.Language=newVal;
-        },
-        deep: true
-      }
-    },
-//待定
     data() {
       let self = this;
       return {
         title:{
-            time:["时间","time"],
-            name:["名称","name"],
-            content:["",""],
+            time:"time",
+            name:"name",
+            content:"",
         },
         Language:this.$store.state.Language,
         data0:{
-            service:["数据集下载","Dataset"],
-            serviceAbstact:["初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍初级介绍","EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"],
+            service:"Dataset",
+            serviceAbstact:"EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
         },
         data: [
-        { id: 1, name:['待定1','ENENENEN'] , time: "待定1", content: '待定1' },
-        { id: 2, name:['待定2','ENENENEN'] , time: "待定2", content: '待定1' },
-        { id: 3, name:['待定3','ENENENEN'] , time: "待定3", content: '待定1' },
+        // { id: 1, name:'ENENENEN' , time: "待定1", content: '待定1' },
+
                 ],
                 pageSize: 12,   // 每页显示的条数
                 currentPage: 1  // 当前页码
