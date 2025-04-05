@@ -36,7 +36,7 @@
         "images": "East Paris Emotion Map.png"
     },
     {
-        "name": "San Francisco Emotional Map",
+        "name": "San Francisco Emotion Map",
         "author": "Christian Nold",
         "person": [
             "group",
@@ -84,7 +84,7 @@
             "physical place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "embodied movement",
             "hardware",
             "collaborative activity"
@@ -232,7 +232,7 @@
             "fieldwork and ethnography"
         ],
         "Process2": [
-            "adhesive notes",
+            "posting sticky notes",
             "annotated content/associated stories"
         ],
         "Genre": [
@@ -363,7 +363,7 @@
             "physical place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "fieldwork and ethnography",
             "collaborative activity"
         ],
@@ -396,7 +396,7 @@
             "memorized place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "personal experience"
         ],
         "Process2": [
@@ -429,7 +429,7 @@
         ],
         "Process1": [
             "interview",
-            "draw/sketch",
+            "drawing/sketching",
             "collaborative activity"
         ],
         "Process2": [
@@ -460,7 +460,7 @@
             "memorized place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "collaborative activity"
         ],
         "Process2": [
@@ -527,7 +527,7 @@
         ],
         "Process1": [
             "interview",
-            "draw/sketch",
+            "drawing/sketching",
             "collaborative activity"
         ],
         "Process2": [
@@ -653,7 +653,7 @@
         ],
         "Process1": [
             "interview",
-            "draw/sketch",
+            "drawing/sketching",
             "questionnaire and survey"
         ],
         "Process2": [
@@ -781,7 +781,7 @@
             "video recording/taking pictures"
         ],
         "Process2": [
-            "adhesive notes",
+            "posting sticky notes",
             "image/photo",
             "symbol/metaphor",
             "annotated content/associated stories"
@@ -839,7 +839,7 @@
             "memorized place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "personal experience",
             "inherent emotional attitude"
         ],
@@ -872,7 +872,7 @@
             "physical place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "embodied movement",
             "video recording/taking pictures",
             "system/platform development",
@@ -909,7 +909,7 @@
             "psychological place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "collaborative activity"
         ],
         "Process2": [
@@ -974,7 +974,7 @@
             "psychological place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "prepared toolkit"
         ],
         "Process2": [
@@ -1016,7 +1016,7 @@
             "collaborative activity"
         ],
         "Process2": [
-            "adhesive notes",
+            "posting sticky notes",
             "image/photo"
         ],
         "Genre": [
@@ -1043,7 +1043,7 @@
             "physical place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "fieldwork and ethnography"
         ],
         "Process2": [
@@ -1105,7 +1105,7 @@
         ],
         "Process1": [
             "interview",
-            "draw/sketch"
+            "drawing/sketching"
         ],
         "Process2": [
             "annotated content/associated stories"
@@ -1200,11 +1200,11 @@
             "physical place"
         ],
         "Process1": [
-            "draw/sketch",
+            "drawing/sketching",
             "collaborative activity"
         ],
         "Process2": [
-            "adhesive notes",
+            "posting sticky notes",
             "annotated content/associated stories"
         ],
         "Genre": [
@@ -1646,7 +1646,7 @@
             "collaborative activity"
         ],
         "Process2": [
-            "adhesive notes",
+            "posting sticky notes",
             "annotated content/associated stories"
         ],
         "Genre": [
@@ -2033,7 +2033,7 @@
         "Genre": [
             "interactive interface"
         ],
-        "Link1":[],
+        "Link1":["https://ieeexplore.ieee.org/abstract/document/10541485"],
         "Link2":[],
         "Link3":[],
         "Link4":[],

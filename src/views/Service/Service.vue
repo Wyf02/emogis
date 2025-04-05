@@ -7,11 +7,11 @@
     EXPLORE DATASET
   </h2> -->
   
-  <div class="overlay-text">
-    <h2>Emotional map dataset</h2>
+  <!-- <div class="overlay-text">
+    <h2>Affective GeoVisualization Design Corpus</h2>
   </div>
    
-  <img src="@/assets/images/first/home.png" style="height:30vh; width:100%;object-fit: cover;">
+  <img src="@/assets/images/first/home.png" style="height:30vh; width:100%;object-fit: cover;"> -->
   <div class="contentcv"> 
   <!-- <br/> -->
   <br/>
@@ -19,20 +19,6 @@
              
              <!-- <div class="filter-label" :style="{'margin-top': '-0.7%'}">Filter by Year:</div>
              <barbrush @messageToParent="handleMessageFromChild"/> -->
-             <div class="filter-label">Filter by Place:</div>
-             <div class="filter-options">
-                 <button
-                     class="filter-button"
-                     :style="getTechColor('place',index)"
-                     v-for="(place, index) in places"
-                     :key="index"
-                     @click="toggleFilter('place', index)"
-                     :class="{ 'selected': isSelected('place', index) }"
-                 >
-                     {{ place }}
-                 </button>
-             </div>
-   
              <div class="filter-label">Filter by Person:</div>
              <div class="filter-options">
                  <button
@@ -44,6 +30,20 @@
                      :class="{ 'selected': isSelected('person', index) }"
                  >
                      {{ person }}
+                 </button>
+             </div>
+
+             <div class="filter-label">Filter by Place:</div>
+             <div class="filter-options">
+                 <button
+                     class="filter-button"
+                     :style="getTechColor('place',index)"
+                     v-for="(place, index) in places"
+                     :key="index"
+                     @click="toggleFilter('place', index)"
+                     :class="{ 'selected': isSelected('place', index) }"
+                 >
+                     {{ place }}
                  </button>
              </div>
      
@@ -117,14 +117,16 @@
                 </div></p>
              
              <p style="line-height:1.2 ;font-size: 1rem;">{{ item.author ? item.author  : '' }} </p>
-                 <p style="line-height: 1.2 ;font-size: 1rem;color:brown">{{ item.place? item.place.join(', ')  : '' }}</p>
+                 <!-- <p style="line-height: 1.2 ;font-size: 1rem;color:brown">{{ item.place? item.place.join(', ')  : '' }}</p> -->
                  <p style="line-height: 1.2 ;font-size: 0.9rem;">
                         <!-- <span v-if="item.Process2.length > 0">{{ item.Process2 ? item.Process2.join(', ') : '' }}; </span>
                         <span v-if="item.place.length > 0">{{ item.place ? item.place.join(', ') : '' }}</span> -->
                     </p>
-                    <p><span class="custom-tag1" :style="{'color':'#478F8D','border':`1px solid #478F8D`}" v-for="(item1, index1) in item.person" :key="index">{{ item1 }}</span></p>
-                    <p><span class="custom-tag1" :style="{'color':'#1B4C79','border':`1px solid #1B4C79`}" v-for="(item1, index1) in item.Process1" :key="index">{{ item1 }}</span></p>
-                    <p><span class="custom-tag1" :style="{'color':'#8A594E','border':`1px solid #8A594E`}" v-for="(item1, index1) in item.Process2" :key="index">{{ item1 }}</span></p>
+                    <!-- #B78296, #4E98C0, #AF967E, #58AE98, grey -->
+                     <p><span class="custom-tag1" :style="{'color':'#B78296','border':`1px solid #B78296`}" v-for="(item1, index1) in item.person" :key="index">{{ item1 }}</span></p>
+                    <p><span class="custom-tag1" :style="{'color':'#4E98C0','border':`1px solid #4E98C0`}" v-for="(item1, index1) in item.place" :key="index">{{ item1 }}</span></p>
+                    <p><span class="custom-tag1" :style="{'color':'#AF967E','border':`1px solid #AF967E`}" v-for="(item1, index1) in item.Process1" :key="index">{{ item1 }}</span></p>
+                    <p><span class="custom-tag1" :style="{'color':'#58AE98','border':`1px solid #58AE98`}" v-for="(item1, index1) in item.Process2" :key="index">{{ item1 }}</span></p>
                     <p><span class="custom-tag1" :style="{'color':'grey','border':`1px solid grey`}" v-for="(item1, index1) in item.Genre" :key="index">{{ item1 }}</span></p>
                     <!-- <p style="line-height: 1.2 ;font-size: 0.9rem;">Place:  {{ item.place.length > 0 ? item.place.join(', ') : 'not specified' }}</p>
                     <p style="line-height: 1.2 ;font-size: 0.9rem;">Process1:  {{ item.Process1.length > 0 ? item.Process1.join(', ') : 'not specified' }}</p>
@@ -174,10 +176,10 @@
         categories:{},
 
         techniqueColors:{
-        "place":"brown",
-        "person":'#478F8D',
-        "Process1":'#1B4C79',
-        "Process2":'#8A594E',
+        "person":'#B78296',
+        "place":"#4E98C0",
+        "Process1":'#AF967E',
+        "Process2":'#58AE98',
         "Genre":"grey"
         },
         canvas: null,
@@ -596,6 +598,7 @@
              border-radius: 20px;
              margin-left: 6%;
              margin-right: 6%;
+             margin-top: 6%;
              box-shadow: 0px 5px 14px rgba(182, 182, 182, 0.2); /* 添加底部阴影，可以根据需要调整参数 */
              /* color:white */
          }

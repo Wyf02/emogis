@@ -30,7 +30,7 @@ header {
 
 .header1{
   font-family:  'Poppins';
-  background-color: rgb(0, 0, 0);
+  background-color: #EAE6E3;
   box-shadow: 0 2px 10px rgba(0,0,0,.2);
   position: fixed;
   top: 0;
@@ -39,7 +39,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 10%;
+  height: 7%;
 
 }
 
@@ -91,12 +91,12 @@ header {
 }
 .header1 a{
   font-size: 1.2rem;
-  color:white;
+  color:#3A3434;
   text-decoration : none;
 }
 
 .header1 a:hover{
-  color: #ddd;
+  color: #bfbcbc;
 }
 
 

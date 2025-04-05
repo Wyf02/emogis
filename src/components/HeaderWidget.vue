@@ -13,23 +13,23 @@
     
 <div class="header1">
     <nav class="navbar">
-      <router-link to="/" class="homePage" style="width: 40%;font-weight: bold;color:white;text-align: left;margin-left: 2%;font-size:2vw;white-space: nowrap;font-family: 'OPTIMA';"> 
-        Emogis DataSet
+      <router-link to="/" class="homePage" style="width: 40%;font-weight: 900;color: #3A3434;text-align: left;margin-left: 2%;font-size:1.7vw;white-space: nowrap;font-family: 'OPTIMA';"> 
+        Affective GeoVisualization Design
 <br/>
 <!-- <span style="font-size: small;">(10 Years of VISAP)</span> -->
         <!-- <img  src="../assets/images/logo.png" style="width: 80%; height:80%;opacity: 1;"> -->
        </router-link>
         <input type="checkbox" id="menu-toggler">
         <label for="menu-toggler" id="hamburger-btn">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="24px" height="24px">
             <path d="M0 0h24v24H0z" fill="none"/>
             <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
           </svg>
         </label>
         <ul class="all-links">
+        <li><router-link to="/DataSet"  >{{ Service }}</router-link></li>
         <li><router-link to="/DesignSpace"  >{{ DesignSpace}}</router-link></li>
         <!-- <li><router-link to="/Connection" >{{ Find }}</router-link></li> -->
-        <li><router-link to="/DataSet"  >{{ Service }}</router-link></li>
         <!-- <li><router-link to="/ReportDetail" >{{ analyse }}</router-link></li> -->
         <li><router-link to="/Report" >{{ Details }}</router-link></li>
 
@@ -45,8 +45,8 @@ export default {
     return {
       loginReg:false,
       Language:this.$store.state.Language,
-      DesignSpace:"Design Space",
-      Service:"Explore Our Dataset",
+      Service:"Corpus",
+      DesignSpace:"Taxonomy",
       Details:"DownLoad",
       // Find:"Findings",
       analyse:"Data Analysis",
@@ -194,7 +194,7 @@ export default {
   
   /* 所处界面标识 */
   div a.router-link-exact-active {
-    color: #42b983;
+    color: #5b3502;
   }
 
   .subMenuBox{
@@ -312,7 +312,8 @@ export default {
   
   /* 所处界面标识 */
   div a.router-link-exact-active {
-    color: #42b983;
+    color: rgba(10, 10, 10, 0.9);
+    font-weight: 900;
   }
 
   .subMenuBox{

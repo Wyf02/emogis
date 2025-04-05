@@ -116,12 +116,12 @@ export default {
     return {
       Language:this.$store.state.Language,
       details:"Explore",
-      Page1:{title:"\"Mapping What I Feel\"",content:"Understanding Affective Geovisualization Design Through the Lens of People-Place Relationships",img:require('@/assets/images/first/home.jpg')},
-      Page2:{title:["Aboard","Aboard"],content:['11','EN'],img:require('@/assets/images/first/home.jpg')},
-      Page3:{title:["What We Do","What We Do"],content:['11','111'],img:require('@/assets/images/first/home.jpg')},
-      Page4:{title:["About","About"],content:['11','EN'],img:require('@/assets/images/first/home.jpg')},
-      Page5:{title:["Insights","Insights"],content:['11','11'],img:require('@/assets/images/first/home.jpg')},
-      Page6:{title:["Our Connections","Our Connections"],content:['11','11'],img:require('@/assets/images/first/home.jpg')}
+      Page1:{title:"Mapping What I Feel",content:"Understanding Affective Geovisualization Design Through the Lens of People-Place Relationships",img:require('@/assets/images/first/home1.png')},
+      Page2:{title:["Aboard","Aboard"],content:['11','EN'],img:require('@/assets/images/first/home1.png')},
+      Page3:{title:["What We Do","What We Do"],content:['11','111'],img:require('@/assets/images/first/home1.png')},
+      Page4:{title:["About","About"],content:['11','EN'],img:require('@/assets/images/first/home1.png')},
+      Page5:{title:["Insights","Insights"],content:['11','11'],img:require('@/assets/images/first/home1.png')},
+      Page6:{title:["Our Connections","Our Connections"],content:['11','11'],img:require('@/assets/images/first/home1.png')}
 
      
     };
@@ -132,11 +132,11 @@ export default {
 
 <style>
 #home{
-  background-image: url('@/assets/images/first/home.jpg');
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('@/assets/images/first/home1.png');
 }
 @media screen and (max-width: 860px) {
   #home{
-    background-image: url('@/assets/images/first/home.jpg');
+    background-image: url('@/assets/images/first/home1.png');
   }
 }
 .AboardsTable{
