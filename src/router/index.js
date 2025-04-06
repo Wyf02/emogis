@@ -18,6 +18,14 @@ const routes = [
       title: 'DataSet'
     }
   },
+  {
+    path: '/Taxonomy',
+    name: 'Taxonomy',
+    component:() =>import('../views/Service/Taxonomy.vue'),
+    meta:{
+      title: 'Taxonomy'
+    }
+  },
   // {
   //   path:'/About',
   //   name:'About',

@@ -28,7 +28,7 @@
         </label>
         <ul class="all-links">
         <li><router-link to="/DataSet"  >{{ Service }}</router-link></li>
-        <li><router-link to="/DesignSpace"  >{{ DesignSpace}}</router-link></li>
+        <li><router-link to="/Taxonomy"  >{{ Taxonomy}}</router-link></li>
         <!-- <li><router-link to="/Connection" >{{ Find }}</router-link></li> -->
         <!-- <li><router-link to="/ReportDetail" >{{ analyse }}</router-link></li> -->
         <li><router-link to="/Report" >{{ Details }}</router-link></li>
@@ -46,7 +46,7 @@ export default {
       loginReg:false,
       Language:this.$store.state.Language,
       Service:"Corpus",
-      DesignSpace:"Taxonomy",
+      Taxonomy:"Taxonomy",
       Details:"DownLoad",
       // Find:"Findings",
       analyse:"Data Analysis",
