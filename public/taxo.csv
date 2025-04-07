@@ -30,7 +30,7 @@ Prepared toolkit,28,Process,Emotional Data Content,Subject,3
 Hardware,29,Process,Emotional Data Content,Subject,7
 Historical material mining,30,Process,Emotional Data Content,Subject,5
 System/platform development,31,Process,Emotional Data Content,Subject,8
-Questionnaire/open call,32,Process,Emotional Data Content,Subject,3
+Questionnaire and survey,32,Process,Emotional Data Content,Subject,3
 Statis image/painting,33,Process,Emotional Representation,Genre,27
 Event,34,Process,Emotional Representation,Genre,16
 Interactive interface,35,Process,Emotional Representation,Genre,14
@@ -39,7 +39,7 @@ Performance,37,Process,Emotional Representation,Genre,5
 Video,38,Process,Emotional Representation,Genre,2
 Installation,39,Process,Emotional Representation,Genre,2
 Color,40,Process,Emotional Representation,Sensation,24
-Images/photos,41,Process,Emotional Representation,Sensation,18
+Image/photo,41,Process,Emotional Representation,Sensation,18
 Symbol/metaphor,42,Process,Emotional Representation,Sensation,17
 Tangible material/texture,43,Process,Emotional Representation,Sensation,14
 Shape,44,Process,Emotional Representation,Sensation,8

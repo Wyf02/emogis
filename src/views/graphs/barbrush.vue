@@ -21,7 +21,7 @@ export default {
       try {
         // 加载 CSV 文件
         const taxoData = await d3.csv('taxo.csv');
-        const codingData = await d3.csv('coding.csv');
+        const codingData = await d3.csv('sorted_coding.csv');
         
         // 处理 taxo 数据
         techHierarchy = taxoData.map(d => ({
@@ -202,7 +202,7 @@ export default {
             .attr('text-anchor', 'end')
             .attr('dominant-baseline', 'middle')
             .style('font-weight', 'bold')
-            .style('font-size', '4px')
+            .style('font-size', '5.5px')
             .text(project.name);
           
           // 绘制单元格
@@ -274,7 +274,7 @@ export default {
         'age': '#AEAAAA',
         'class': '#AEAAAA',
         'world': '#204E78',
-        'country': '#9BC2E6',
+        'country': '#2F75B5',
         'city': '#9BC2E6',
         'non-urban/rural': '#BDD7EE',
         'architecture/site': '#DDEBF7',
@@ -294,7 +294,7 @@ export default {
         'hardware': '#F2E2D9',
         'historical material mining': '#F2E2D9',
         'system/platform development': '#F2E2D9',
-        'questionnaire/open call': '#F2E2D9',
+        'questionnaire and survey': '#F2E2D9',
         'statis image/painting': '#E7E6E6',
         'event': '#E7E6E6',
         'interactive interface': '#E7E6E6',
@@ -303,7 +303,7 @@ export default {
         'video': '#E7E6E6',
         'installation': '#E7E6E6',
         'color': '#D1DFDA',
-        'images/photos': '#D1DFDA',
+        'image/photo': '#D1DFDA',
         'symbol/metaphor': '#D1DFDA',
         'tangible material/texture': '#D1DFDA',
         'shape': '#D1DFDA',
