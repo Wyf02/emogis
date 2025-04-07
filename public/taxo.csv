@@ -1,0 +1,55 @@
+tech,id,dim,parent,subparent,count
+Individual,1,Person,Type,Type,33
+Group,2,Person,Type,Type,29
+Residential,3,Person,Characteristic,Characteristic,32
+Not specified or anyone,4,Person,Characteristic,Characteristic,12
+Special status,5,Person,Characteristic,Characteristic,10
+Traveler,6,Person,Characteristic,Characteristic,6
+Cultural/racial,7,Person,Characteristic,Characteristic,6
+Gender,8,Person,Characteristic,Characteristic,6
+Age,9,Person,Characteristic,Characteristic,3
+Class,10,Person,Characteristic,Characteristic,2
+World,11,Place,Geographical,Characteristic,4
+Country,12,Place,Geographical,Geographical,14
+City,13,Place,Geographical,Geographical,28
+Non-urban/rural,14,Place,Geographical,Geographical,6
+Architecture/site,15,Place,Geographical,Geographical,10
+Physical,16,Place,Subjective,Subjective,39
+Memorized,17,Place,Subjective,Subjective,11
+Psychological,18,Place,Subjective,Subjective,12
+Inherent emotional attitude,19,Process,Emotional Data Content,Designer,11
+Personal experience,20,Process,Emotional Data Content,Designer,10
+Collaborative activity,21,Process,Emotional Data Content,Subject,21
+Embodied movement,22,Process,Emotional Data Content,Subject,18
+Interview,23,Process,Emotional Data Content,Subject,14
+Drawing/sketching,24,Process,Emotional Data Content,Subject,14
+Fieldwork and ethnography,25,Process,Emotional Data Content,Subject,8
+Video recording/taking pictures,26,Process,Emotional Data Content,Subject,6
+Posting sticky notes,27,Process,Emotional Data Content,Subject,5
+Prepared toolkit,28,Process,Emotional Data Content,Subject,3
+Hardware,29,Process,Emotional Data Content,Subject,7
+Historical material mining,30,Process,Emotional Data Content,Subject,5
+System/platform development,31,Process,Emotional Data Content,Subject,8
+Questionnaire/open call,32,Process,Emotional Data Content,Subject,3
+Statis image/painting,33,Process,Emotional Representation,Genre,27
+Event,34,Process,Emotional Representation,Genre,16
+Interactive interface,35,Process,Emotional Representation,Genre,14
+Artifact,36,Process,Emotional Representation,Genre,10
+Performance,37,Process,Emotional Representation,Genre,5
+Video,38,Process,Emotional Representation,Genre,2
+Installation,39,Process,Emotional Representation,Genre,2
+Color,40,Process,Emotional Representation,Sensation,24
+Images/photos,41,Process,Emotional Representation,Sensation,18
+Symbol/metaphor,42,Process,Emotional Representation,Sensation,17
+Tangible material/texture,43,Process,Emotional Representation,Sensation,14
+Shape,44,Process,Emotional Representation,Sensation,8
+Sound,45,Process,Emotional Representation,Sensation,7
+Style,46,Process,Emotional Representation,Sensation,6
+Animation/simulation,47,Process,Emotional Representation,Sensation,3
+Layout,48,Process,Emotional Representation,Sensation,3
+Typeface,49,Process,Emotional Representation,Sensation,2
+Annotated content/associated stories,50,Process,Emotional Representation,Narrative,33
+Collage,51,Process,Emotional Representation,Narrative,10
+Body language,52,Process,Emotional Representation,Narrative,5
+Wording/phrasing,53,Process,Emotional Representation,Narrative,3
+Personalized visual,54,Process,Emotional Representation,Narrative,3

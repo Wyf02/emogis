@@ -197,10 +197,10 @@
 'physical place', 'memorized place', 'psychological place', 
     ],
         Process1s: 
-        [
+        ['personal experience', 'inherent emotional attitude',
     'interview','drawing/sketching', 'questionnaire and survey', 'embodied movement',
 'fieldwork and ethnography', 'video recording/taking pictures','hardware', 'historical material mining', 'prepared toolkit',
-'personal experience', 'system/platform development','inherent emotional attitude', 'collaborative activity','posting sticky notes',],
+ 'system/platform development', 'collaborative activity','posting sticky notes',],
         Process2:[ 'typeface', 'image/photo', 'wording/phrasing',
 'layout', 'symbol/metaphor', 'animation/simulation','annotated content/associated stories', 'shape', 'body language',
 'collage', 'color', 'style', 'sound', 'tangible material/texture','personalized visual', 
